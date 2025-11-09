@@ -1,6 +1,6 @@
 {
-  "created": "2025-11-09T12:18:26+01:00",
-  "update": "2025-11-09T13:18:26+01:00",
+  "created": "2025-11-09T18:16:24+01:00",
+  "update": "2025-11-09T19:16:24+01:00",
   "uv": {
     "duration": {
       "days": 2,
@@ -11,30 +11,30 @@
   },
   "dayIntervals": [
     {
-      "start": "2025-11-09T13:00:00+01:00",
+      "start": "2025-11-09T19:00:00+01:00",
       "end": "2025-11-09T23:00:00+01:00",
-      "twentyFourHourSymbol": "fair_day",
+      "twentyFourHourSymbol": "partlycloudy_night",
       "twelveHourSymbols": [
         null,
-        "partlycloudy_day"
+        "partlycloudy_night"
       ],
       "sixHourSymbols": [
         null,
         null,
-        "fair_day",
-        "fog"
+        null,
+        "partlycloudy_night"
       ],
       "symbolConfidence": "None",
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 11,
-        "min": 3.2,
-        "max": 11
+        "value": 6.7,
+        "min": 5.7,
+        "max": 6.8
       },
       "wind": {
-        "min": 0.5,
+        "min": 0.7,
         "max": 1.1
       }
     },
@@ -57,13 +57,13 @@
         "value": 0
       },
       "temperature": {
-        "value": 9.2,
-        "min": 3.2,
-        "max": 9.2
+        "value": 10.1,
+        "min": 3.5,
+        "max": 10.6
       },
       "wind": {
-        "min": 0.9,
-        "max": 1.1
+        "min": 0.6,
+        "max": 1
       }
     },
     {
@@ -71,27 +71,27 @@
       "end": "2025-11-11T23:00:00+01:00",
       "twentyFourHourSymbol": "fair_day",
       "twelveHourSymbols": [
-        "partlycloudy_day",
-        "fair_day"
+        "fair_day",
+        "clearsky_day"
       ],
       "sixHourSymbols": [
-        "partlycloudy_night",
+        "fair_night",
         "fair_day",
-        "fair_day",
-        "partlycloudy_night"
+        "clearsky_day",
+        "fair_night"
       ],
       "symbolConfidence": "None",
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13,
-        "min": 4.5,
-        "max": 13
+        "value": 13.4,
+        "min": 4.7,
+        "max": 13.4
       },
       "wind": {
         "min": 0.6,
-        "max": 1.2
+        "max": 1.4
       }
     },
     {
@@ -103,7 +103,7 @@
         "partlycloudy_day"
       ],
       "sixHourSymbols": [
-        "cloudy",
+        "partlycloudy_night",
         "cloudy",
         "cloudy",
         "fair_night"
@@ -294,110 +294,13 @@
   "shortIntervals": [
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 15,
+        "clouds": 3,
         "precip": 0,
-        "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 11
-      },
-      "wind": {
-        "direction": 262,
-        "speed": 0.9
-      },
-      "feelsLike": {
-        "value": 11
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 1.3
-      },
-      "cloudCover": {
-        "value": 50,
-        "high": 0,
-        "middle": 37,
-        "low": 23,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 76.1
-      },
-      "dewPoint": {
-        "value": 6.9
-      },
-      "start": "2025-11-09T14:00:00+01:00",
-      "end": "2025-11-09T15:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_day",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 11
-      },
-      "wind": {
-        "direction": 289,
-        "speed": 0.9
-      },
-      "feelsLike": {
-        "value": 11
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0.7
-      },
-      "cloudCover": {
-        "value": 20,
-        "high": 0,
-        "middle": 3,
-        "low": 17,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 79.3
-      },
-      "dewPoint": {
-        "value": 7.5
-      },
-      "start": "2025-11-09T15:00:00+01:00",
-      "end": "2025-11-09T16:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_day",
+        "next1Hour": "fog",
         "next6Hours": "partlycloudy_night",
         "next12Hours": "partlycloudy_night"
       },
@@ -405,205 +308,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 10
+        "value": 6.7
       },
       "wind": {
-        "direction": 246,
-        "speed": 0.7
-      },
-      "feelsLike": {
-        "value": 10
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0.2
-      },
-      "cloudCover": {
-        "value": 29,
-        "high": 0,
-        "middle": 12,
-        "low": 20,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 83.7
-      },
-      "dewPoint": {
-        "value": 7.3
-      },
-      "start": "2025-11-09T16:00:00+01:00",
-      "end": "2025-11-09T17:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.1
-      },
-      "wind": {
-        "direction": 294,
-        "speed": 0.5
-      },
-      "feelsLike": {
-        "value": 8.1
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 23,
-        "high": 0,
-        "middle": 5,
-        "low": 20,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 86.3
-      },
-      "dewPoint": {
-        "value": 5.9
-      },
-      "start": "2025-11-09T17:00:00+01:00",
-      "end": "2025-11-09T18:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 6.9
-      },
-      "wind": {
-        "direction": 304,
-        "speed": 0.8
-      },
-      "feelsLike": {
-        "value": 6.9
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 30,
-        "high": 0,
-        "middle": 0,
-        "low": 30,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 90.3
-      },
-      "dewPoint": {
-        "value": 5.3
-      },
-      "start": "2025-11-09T18:00:00+01:00",
-      "end": "2025-11-09T19:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 6.1
-      },
-      "wind": {
-        "direction": 298,
-        "speed": 0.9
-      },
-      "feelsLike": {
-        "value": 6.1
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 31,
-        "high": 0,
-        "middle": 0,
-        "low": 30,
-        "fog": 7
-      },
-      "humidity": {
-        "value": 93.5
-      },
-      "dewPoint": {
-        "value": 5.1
-      },
-      "start": "2025-11-09T19:00:00+01:00",
-      "end": "2025-11-09T20:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 15,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fog",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 5.2
-      },
-      "wind": {
-        "direction": 289,
+        "direction": 272,
         "speed": 1.1
       },
       "feelsLike": {
-        "value": 5.2
+        "value": 6.7
       },
       "pressure": {
         "value": 1019
@@ -612,45 +324,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 56,
+        "value": 49,
         "high": 0,
-        "middle": 1,
-        "low": 56,
-        "fog": 48
+        "middle": 0,
+        "low": 49,
+        "fog": 30
       },
       "humidity": {
-        "value": 95
+        "value": 92.9
       },
       "dewPoint": {
-        "value": 4.4
+        "value": 5.6
       },
       "start": "2025-11-09T20:00:00+01:00",
       "end": "2025-11-09T21:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 3.9
+        "value": 5.9
       },
       "wind": {
-        "direction": 275,
-        "speed": 0.6
+        "direction": 292,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 3.9
+        "value": 5.9
       },
       "pressure": {
         "value": 1019
@@ -659,45 +372,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 67,
-        "high": 1,
+        "value": 60,
+        "high": 0,
         "middle": 0,
-        "low": 67,
-        "fog": 54
+        "low": 60,
+        "fog": 21
       },
       "humidity": {
-        "value": 95.8
+        "value": 93.8
       },
       "dewPoint": {
-        "value": 3.2
+        "value": 4.9
       },
       "start": "2025-11-09T21:00:00+01:00",
       "end": "2025-11-09T22:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "cloudy",
+        "next12Hours": "cloudy"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 3.2
+        "value": 5.7
       },
       "wind": {
-        "direction": 292,
-        "speed": 0.5
+        "direction": 310,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 3.2
+        "value": 5.7
       },
       "pressure": {
         "value": 1019
@@ -706,30 +420,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 98,
-        "high": 69,
+        "value": 52,
+        "high": 0,
         "middle": 0,
-        "low": 91,
-        "fog": 88
+        "low": 52,
+        "fog": 21
       },
       "humidity": {
-        "value": 97.4
+        "value": 93.4
       },
       "dewPoint": {
-        "value": 2.7
+        "value": 4.6
       },
       "start": "2025-11-09T22:00:00+01:00",
       "end": "2025-11-09T23:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "partlycloudy_night",
         "next6Hours": "fog",
         "next12Hours": "fog"
       },
@@ -737,14 +452,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 3.2
+        "value": 5.7
       },
       "wind": {
-        "direction": 297,
-        "speed": 0.9
+        "direction": 264,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 3.2
+        "value": 5.7
       },
       "pressure": {
         "value": 1019
@@ -753,30 +468,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 96,
-        "high": 53,
+        "value": 71,
+        "high": 34,
         "middle": 0,
-        "low": 93,
-        "fog": 52
+        "low": 55,
+        "fog": 21
       },
       "humidity": {
-        "value": 98.6
+        "value": 94.6
       },
       "dewPoint": {
-        "value": 2.9
+        "value": 4.8
       },
       "start": "2025-11-09T23:00:00+01:00",
       "end": "2025-11-10T00:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "partlycloudy_night",
         "next6Hours": "fog",
         "next12Hours": "fog"
       },
@@ -784,14 +500,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 3.7
+        "value": 5.1
       },
       "wind": {
-        "direction": 291,
-        "speed": 1
+        "direction": 264,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 3.7
+        "value": 5.1
       },
       "pressure": {
         "value": 1019
@@ -800,30 +516,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 90,
-        "high": 3,
+        "value": 84,
+        "high": 54,
         "middle": 0,
-        "low": 90,
-        "fog": 51
+        "low": 65,
+        "fog": 21
       },
       "humidity": {
-        "value": 97.3
+        "value": 96
       },
       "dewPoint": {
-        "value": 3.2
+        "value": 4.4
       },
       "start": "2025-11-10T00:00:00+01:00",
       "end": "2025-11-10T01:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "partlycloudy_night",
         "next6Hours": "fog",
         "next12Hours": "fog"
       },
@@ -831,14 +548,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 3.7
+        "value": 5
       },
       "wind": {
-        "direction": 277,
-        "speed": 0.9
+        "direction": 73,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 3.7
+        "value": 5
       },
       "pressure": {
         "value": 1019
@@ -847,17 +564,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 94,
-        "high": 2,
+        "value": 73,
+        "high": 11,
         "middle": 0,
-        "low": 93,
-        "fog": 53
+        "low": 70,
+        "fog": 21
       },
       "humidity": {
-        "value": 97.5
+        "value": 96.3
       },
       "dewPoint": {
-        "value": 3.2
+        "value": 4.4
       },
       "start": "2025-11-10T01:00:00+01:00",
       "end": "2025-11-10T02:00:00+01:00"
@@ -878,33 +595,33 @@
         "value": 0
       },
       "temperature": {
-        "value": 3.2
+        "value": 4.8
       },
       "wind": {
-        "direction": 257,
-        "speed": 0.9
+        "direction": 189,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 3.2
+        "value": 4.8
       },
       "pressure": {
-        "value": 1019
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 100,
-        "high": 54,
+        "value": 98,
+        "high": 0,
         "middle": 0,
-        "low": 100,
-        "fog": 68
+        "low": 98,
+        "fog": 25
       },
       "humidity": {
-        "value": 98.4
+        "value": 97.8
       },
       "dewPoint": {
-        "value": 2.8
+        "value": 4.4
       },
       "start": "2025-11-10T02:00:00+01:00",
       "end": "2025-11-10T03:00:00+01:00"
@@ -925,33 +642,33 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.1
+        "value": 4.5
       },
       "wind": {
-        "direction": 216,
-        "speed": 1
+        "direction": 195,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 4.1
+        "value": 4.5
       },
       "pressure": {
-        "value": 1019
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
         "value": 100,
-        "high": 57,
-        "middle": 1,
+        "high": 5,
+        "middle": 0,
         "low": 100,
-        "fog": 79
+        "fog": 32
       },
       "humidity": {
-        "value": 95.3
+        "value": 97.9
       },
       "dewPoint": {
-        "value": 3.3
+        "value": 4.1
       },
       "start": "2025-11-10T03:00:00+01:00",
       "end": "2025-11-10T04:00:00+01:00"
@@ -972,14 +689,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.1
+        "value": 4.9
       },
       "wind": {
-        "direction": 206,
-        "speed": 0.9
+        "direction": 232,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 4.1
+        "value": 4.9
       },
       "pressure": {
         "value": 1018
@@ -989,16 +706,16 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 91,
-        "middle": 12,
+        "high": 0,
+        "middle": 0,
         "low": 100,
-        "fog": 83
+        "fog": 37
       },
       "humidity": {
-        "value": 95.3
+        "value": 97.7
       },
       "dewPoint": {
-        "value": 3.3
+        "value": 4.5
       },
       "start": "2025-11-10T04:00:00+01:00",
       "end": "2025-11-10T05:00:00+01:00"
@@ -1019,14 +736,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.2
+        "value": 4
       },
       "wind": {
-        "direction": 248,
-        "speed": 0.9
+        "direction": 237,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 4.2
+        "value": 4
       },
       "pressure": {
         "value": 1018
@@ -1036,29 +753,29 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 84,
-        "middle": 65,
+        "high": 13,
+        "middle": 0,
         "low": 100,
-        "fog": 84
+        "fog": 41
       },
       "humidity": {
-        "value": 95.3
+        "value": 98.7
       },
       "dewPoint": {
-        "value": 3.4
+        "value": 3.7
       },
       "start": "2025-11-10T05:00:00+01:00",
       "end": "2025-11-10T06:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 15,
+        "n": 4,
         "clouds": 3,
         "precip": 0,
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "cloudy",
         "next6Hours": "fog",
         "next12Hours": "cloudy"
       },
@@ -1066,14 +783,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.6
+        "value": 3.9
       },
       "wind": {
-        "direction": 272,
-        "speed": 1.1
+        "direction": 245,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 4.6
+        "value": 3.9
       },
       "pressure": {
         "value": 1018
@@ -1083,16 +800,16 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 66,
-        "middle": 14,
+        "high": 78,
+        "middle": 8,
         "low": 100,
-        "fog": 48
+        "fog": 21
       },
       "humidity": {
-        "value": 95.8
+        "value": 98.9
       },
       "dewPoint": {
-        "value": 3.9
+        "value": 3.6
       },
       "start": "2025-11-10T06:00:00+01:00",
       "end": "2025-11-10T07:00:00+01:00"
@@ -1113,14 +830,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.2
+        "value": 3.5
       },
       "wind": {
-        "direction": 258,
-        "speed": 1.1
+        "direction": 227,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 4.2
+        "value": 3.5
       },
       "pressure": {
         "value": 1018
@@ -1130,16 +847,16 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 61,
-        "middle": 9,
+        "high": 43,
+        "middle": 20,
         "low": 100,
-        "fog": 69
+        "fog": 27
       },
       "humidity": {
-        "value": 96.1
+        "value": 99.4
       },
       "dewPoint": {
-        "value": 3.5
+        "value": 3.3
       },
       "start": "2025-11-10T07:00:00+01:00",
       "end": "2025-11-10T08:00:00+01:00"
@@ -1160,14 +877,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.5
+        "value": 3.8
       },
       "wind": {
-        "direction": 227,
-        "speed": 1.1
+        "direction": 218,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 4.5
+        "value": 3.8
       },
       "pressure": {
         "value": 1018
@@ -1177,16 +894,16 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 95,
-        "middle": 16,
+        "high": 81,
+        "middle": 12,
         "low": 100,
-        "fog": 78
+        "fog": 34
       },
       "humidity": {
-        "value": 96.1
+        "value": 98.9
       },
       "dewPoint": {
-        "value": 3.8
+        "value": 3.5
       },
       "start": "2025-11-10T08:00:00+01:00",
       "end": "2025-11-10T09:00:00+01:00"
@@ -1207,14 +924,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 5.6
+        "value": 5.3
       },
       "wind": {
-        "direction": 252,
-        "speed": 1.5
+        "direction": 233,
+        "speed": 1.3
       },
       "feelsLike": {
-        "value": 5
+        "value": 5.3
       },
       "pressure": {
         "value": 1018
@@ -1225,15 +942,15 @@
       "cloudCover": {
         "value": 100,
         "high": 100,
-        "middle": 20,
+        "middle": 8,
         "low": 100,
-        "fog": 100
+        "fog": 87
       },
       "humidity": {
-        "value": 96.4
+        "value": 97.6
       },
       "dewPoint": {
-        "value": 5
+        "value": 4.9
       },
       "start": "2025-11-10T09:00:00+01:00",
       "end": "2025-11-10T10:00:00+01:00"
@@ -1248,7 +965,7 @@
       "symbolCode": {
         "next1Hour": "fog",
         "next6Hours": "cloudy",
-        "next12Hours": "partlycloudy_day"
+        "next12Hours": "cloudy"
       },
       "precipitation": {
         "value": 0
@@ -1257,7 +974,7 @@
         "value": 6.4
       },
       "wind": {
-        "direction": 312,
+        "direction": 297,
         "speed": 1.5
       },
       "feelsLike": {
@@ -1272,15 +989,15 @@
       "cloudCover": {
         "value": 100,
         "high": 100,
-        "middle": 57,
+        "middle": 2,
         "low": 100,
         "fog": 100
       },
       "humidity": {
-        "value": 97.5
+        "value": 97.3
       },
       "dewPoint": {
-        "value": 6
+        "value": 5.9
       },
       "start": "2025-11-10T10:00:00+01:00",
       "end": "2025-11-10T11:00:00+01:00"
@@ -1301,14 +1018,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 7.1
+        "value": 7.4
       },
       "wind": {
-        "direction": 308,
-        "speed": 1.5
+        "direction": 307,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 6
+        "value": 7
       },
       "pressure": {
         "value": 1018
@@ -1318,16 +1035,16 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 100,
-        "middle": 39,
-        "low": 99,
-        "fog": 95
+        "high": 99,
+        "middle": 16,
+        "low": 100,
+        "fog": 38
       },
       "humidity": {
-        "value": 94.3
+        "value": 93.6
       },
       "dewPoint": {
-        "value": 6.2
+        "value": 6.4
       },
       "start": "2025-11-10T11:00:00+01:00",
       "end": "2025-11-10T12:00:00+01:00"
@@ -1348,30 +1065,30 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.2
+        "value": 8.8
       },
       "wind": {
-        "direction": 276,
+        "direction": 280,
         "speed": 1
       },
       "feelsLike": {
-        "value": 8.2
+        "value": 8.8
       },
       "pressure": {
-        "value": 1018
+        "value": 1017
       },
       "uvIndex": {
         "value": 1.9
       },
       "cloudCover": {
         "value": 100,
-        "high": 100,
-        "middle": 76,
-        "low": 77,
+        "high": 99,
+        "middle": 48,
+        "low": 75,
         "fog": 0
       },
       "humidity": {
-        "value": 92.8
+        "value": 89.3
       },
       "dewPoint": {
         "value": 7.1
@@ -1395,14 +1112,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 9.2
+        "value": 9.6
       },
       "wind": {
-        "direction": 214,
-        "speed": 1.1
+        "direction": 219,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 9.2
+        "value": 9.6
       },
       "pressure": {
         "value": 1017
@@ -1412,113 +1129,19 @@
       },
       "cloudCover": {
         "value": 100,
-        "high": 100,
+        "high": 91,
         "middle": 97,
-        "low": 36,
+        "low": 20,
         "fog": 0
       },
       "humidity": {
-        "value": 86.1
+        "value": 83.6
       },
       "dewPoint": {
-        "value": 7
+        "value": 6.9
       },
       "start": "2025-11-10T13:00:00+01:00",
       "end": "2025-11-10T14:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.2
-      },
-      "wind": {
-        "direction": 233,
-        "speed": 1.4
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1016
-      },
-      "uvIndex": {
-        "value": 1.3
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 100,
-        "middle": 100,
-        "low": 15,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 84.5
-      },
-      "dewPoint": {
-        "value": 6.7
-      },
-      "start": "2025-11-10T14:00:00+01:00",
-      "end": "2025-11-10T15:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.1
-      },
-      "wind": {
-        "direction": 246,
-        "speed": 1.4
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1016
-      },
-      "uvIndex": {
-        "value": 0.7
-      },
-      "cloudCover": {
-        "value": 98,
-        "high": 51,
-        "middle": 92,
-        "low": 12,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 82.2
-      },
-      "dewPoint": {
-        "value": 6.2
-      },
-      "start": "2025-11-10T15:00:00+01:00",
-      "end": "2025-11-10T16:00:00+01:00"
     },
     {
       "symbol": {
@@ -1530,6 +1153,101 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_day",
+        "next6Hours": "cloudy",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.1
+      },
+      "wind": {
+        "direction": 207,
+        "speed": 1.2
+      },
+      "feelsLike": {
+        "value": 10.1
+      },
+      "pressure": {
+        "value": 1016
+      },
+      "uvIndex": {
+        "value": 1.3
+      },
+      "cloudCover": {
+        "value": 85,
+        "high": 56,
+        "middle": 78,
+        "low": 10,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 80.4
+      },
+      "dewPoint": {
+        "value": 6.8
+      },
+      "start": "2025-11-10T14:00:00+01:00",
+      "end": "2025-11-10T15:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "cloudy",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.6
+      },
+      "wind": {
+        "direction": 244,
+        "speed": 1
+      },
+      "feelsLike": {
+        "value": 10.6
+      },
+      "pressure": {
+        "value": 1016
+      },
+      "uvIndex": {
+        "value": 0.7
+      },
+      "cloudCover": {
+        "value": 71,
+        "high": 23,
+        "middle": 62,
+        "low": 9,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 76.6
+      },
+      "dewPoint": {
+        "value": 6.6
+      },
+      "start": "2025-11-10T15:00:00+01:00",
+      "end": "2025-11-10T16:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 4,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy",
         "next6Hours": "partlycloudy_night",
         "next12Hours": "partlycloudy_night"
       },
@@ -1537,14 +1255,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 9.1
+        "value": 9.9
       },
       "wind": {
-        "direction": 241,
-        "speed": 1.3
+        "direction": 263,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 9.1
+        "value": 9.9
       },
       "pressure": {
         "value": 1016
@@ -1553,31 +1271,30 @@
         "value": 0.2
       },
       "cloudCover": {
-        "value": 63,
-        "high": 0,
-        "middle": 57,
-        "low": 11,
+        "value": 100,
+        "high": 98,
+        "middle": 100,
+        "low": 4,
         "fog": 0
       },
       "humidity": {
-        "value": 83.3
+        "value": 80.5
       },
       "dewPoint": {
-        "value": 6.4
+        "value": 6.7
       },
       "start": "2025-11-10T16:00:00+01:00",
       "end": "2025-11-10T17:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 4,
+        "clouds": 3,
         "precip": 0,
-        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
+        "next1Hour": "cloudy",
         "next6Hours": "partlycloudy_night",
         "next12Hours": "partlycloudy_night"
       },
@@ -1585,14 +1302,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 6.9
+        "value": 8.5
       },
       "wind": {
-        "direction": 254,
-        "speed": 0.8
+        "direction": 252,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 6.9
+        "value": 8.5
       },
       "pressure": {
         "value": 1016
@@ -1601,17 +1318,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 58,
-        "high": 56,
-        "middle": 1,
-        "low": 6,
+        "value": 93,
+        "high": 90,
+        "middle": 47,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 90.7
+        "value": 86.9
       },
       "dewPoint": {
-        "value": 5.4
+        "value": 6.4
       },
       "start": "2025-11-10T17:00:00+01:00",
       "end": "2025-11-10T18:00:00+01:00"
@@ -1633,14 +1350,62 @@
         "value": 0
       },
       "temperature": {
-        "value": 5.7
+        "value": 7.3
       },
       "wind": {
-        "direction": 238,
+        "direction": 243,
         "speed": 0.9
       },
       "feelsLike": {
-        "value": 5.7
+        "value": 7.3
+      },
+      "pressure": {
+        "value": 1016
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 98,
+        "high": 98,
+        "middle": 7,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 88.6
+      },
+      "dewPoint": {
+        "value": 5.5
+      },
+      "start": "2025-11-10T18:00:00+01:00",
+      "end": "2025-11-10T19:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 6.3
+      },
+      "wind": {
+        "direction": 239,
+        "speed": 1
+      },
+      "feelsLike": {
+        "value": 6.3
       },
       "pressure": {
         "value": 1016
@@ -1651,62 +1416,15 @@
       "cloudCover": {
         "value": 100,
         "high": 100,
-        "middle": 0,
-        "low": 6,
-        "fog": 3
+        "middle": 2,
+        "low": 0,
+        "fog": 0
       },
       "humidity": {
-        "value": 93.1
+        "value": 90.6
       },
       "dewPoint": {
-        "value": 4.6
-      },
-      "start": "2025-11-10T18:00:00+01:00",
-      "end": "2025-11-10T19:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 5.4
-      },
-      "wind": {
-        "direction": 241,
-        "speed": 1
-      },
-      "feelsLike": {
-        "value": 5.4
-      },
-      "pressure": {
-        "value": 1016
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 99,
-        "middle": 13,
-        "low": 21,
-        "fog": 21
-      },
-      "humidity": {
-        "value": 91
-      },
-      "dewPoint": {
-        "value": 3.9
+        "value": 4.8
       },
       "start": "2025-11-10T19:00:00+01:00",
       "end": "2025-11-10T20:00:00+01:00"
@@ -1721,91 +1439,43 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_night"
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5.5
+        "value": 6.1
       },
       "wind": {
-        "direction": 240,
-        "speed": 1
+        "direction": 246,
+        "speed": 1.2
       },
       "feelsLike": {
-        "value": 5.5
+        "value": 6.1
       },
       "pressure": {
-        "value": 1017
+        "value": 1016
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 75,
-        "high": 70,
-        "middle": 0,
-        "low": 20,
-        "fog": 21
-      },
-      "humidity": {
-        "value": 87.9
-      },
-      "dewPoint": {
-        "value": 3.5
-      },
-      "start": "2025-11-10T20:00:00+01:00",
-      "end": "2025-11-10T21:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 3,
-        "clouds": 2,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 5.4
-      },
-      "wind": {
-        "direction": 227,
-        "speed": 1.1
-      },
-      "feelsLike": {
-        "value": 5.4
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 86,
-        "high": 85,
-        "middle": 2,
-        "low": 6,
+        "value": 99,
+        "high": 98,
+        "middle": 3,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 82.8
+        "value": 89.4
       },
       "dewPoint": {
-        "value": 2.6
+        "value": 4.4
       },
-      "start": "2025-11-10T21:00:00+01:00",
-      "end": "2025-11-10T22:00:00+01:00"
+      "start": "2025-11-10T20:00:00+01:00",
+      "end": "2025-11-10T21:00:00+01:00"
     },
     {
       "symbol": {
@@ -1817,21 +1487,21 @@
       },
       "symbolCode": {
         "next1Hour": "fair_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_night"
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5.1
+        "value": 5.7
       },
       "wind": {
-        "direction": 231,
-        "speed": 1.2
+        "direction": 230,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 5.1
+        "value": 5
       },
       "pressure": {
         "value": 1017
@@ -1840,17 +1510,65 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 16,
-        "high": 9,
-        "middle": 6,
-        "low": 2,
+        "value": 27,
+        "high": 27,
+        "middle": 0,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 78.4
+        "value": 86.6
       },
       "dewPoint": {
-        "value": 1.5
+        "value": 3.5
+      },
+      "start": "2025-11-10T21:00:00+01:00",
+      "end": "2025-11-10T22:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 5
+      },
+      "wind": {
+        "direction": 241,
+        "speed": 1.3
+      },
+      "feelsLike": {
+        "value": 5
+      },
+      "pressure": {
+        "value": 1017
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 83,
+        "high": 83,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.7
+      },
+      "dewPoint": {
+        "value": 2.3
       },
       "start": "2025-11-10T22:00:00+01:00",
       "end": "2025-11-10T23:00:00+01:00"
@@ -1865,69 +1583,69 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_day"
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5.1
+        "value": 5
       },
       "wind": {
-        "direction": 226,
-        "speed": 1.2
+        "direction": 235,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 5.1
+        "value": 4
       },
       "pressure": {
-        "value": 1017
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 72,
-        "high": 70,
-        "middle": 4,
+        "value": 68,
+        "high": 68,
+        "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 75.2
+        "value": 82.1
       },
       "dewPoint": {
-        "value": 0.9
+        "value": 2.1
       },
       "start": "2025-11-10T23:00:00+01:00",
       "end": "2025-11-11T00:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_day"
+        "next1Hour": "fair_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5
+        "value": 4.9
       },
       "wind": {
-        "direction": 226,
-        "speed": 1.1
+        "direction": 231,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 5
+        "value": 4
       },
       "pressure": {
         "value": 1018
@@ -1936,30 +1654,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 94,
-        "high": 93,
-        "middle": 4,
+        "value": 34,
+        "high": 34,
+        "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 74.3
+        "value": 81.4
       },
       "dewPoint": {
-        "value": 0.6
+        "value": 1.8
       },
       "start": "2025-11-11T00:00:00+01:00",
       "end": "2025-11-11T01:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy",
+        "next1Hour": "clearsky_night",
         "next6Hours": "fair_night",
         "next12Hours": "fair_day"
       },
@@ -1967,14 +1686,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 5.1
+        "value": 4.7
       },
       "wind": {
-        "direction": 212,
-        "speed": 1.1
+        "direction": 228,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 5.1
+        "value": 4
       },
       "pressure": {
         "value": 1018
@@ -1983,31 +1702,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 99,
-        "high": 99,
-        "middle": 20,
+        "value": 0,
+        "high": 0,
+        "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 73.4
+        "value": 80.6
       },
       "dewPoint": {
-        "value": 0.6
+        "value": 1.5
       },
       "start": "2025-11-11T01:00:00+01:00",
       "end": "2025-11-11T02:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
+        "next1Hour": "clearsky_night",
         "next6Hours": "fair_night",
         "next12Hours": "fair_day"
       },
@@ -2015,14 +1734,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 5.3
+        "value": 4.8
       },
       "wind": {
-        "direction": 202,
-        "speed": 0.9
+        "direction": 215,
+        "speed": 1.2
       },
       "feelsLike": {
-        "value": 5.3
+        "value": 4.8
       },
       "pressure": {
         "value": 1018
@@ -2031,17 +1750,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 98,
-        "high": 98,
+        "value": 1,
+        "high": 0,
         "middle": 0,
-        "low": 0,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 74.2
+        "value": 79
       },
       "dewPoint": {
-        "value": 0.9
+        "value": 1.3
       },
       "start": "2025-11-11T02:00:00+01:00",
       "end": "2025-11-11T03:00:00+01:00"
@@ -2056,21 +1775,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_night",
-        "next6Hours": "fair_night",
+        "next6Hours": "partlycloudy_night",
         "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5.2
+        "value": 4.8
       },
       "wind": {
-        "direction": 245,
-        "speed": 0.7
+        "direction": 216,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 5.2
+        "value": 4.8
       },
       "pressure": {
         "value": 1018
@@ -2079,31 +1798,31 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 8,
-        "high": 7,
-        "middle": 1,
-        "low": 1,
+        "value": 10,
+        "high": 0,
+        "middle": 0,
+        "low": 10,
         "fog": 0
       },
       "humidity": {
-        "value": 74.3
+        "value": 78.2
       },
       "dewPoint": {
-        "value": 0.8
+        "value": 1.2
       },
       "start": "2025-11-11T03:00:00+01:00",
       "end": "2025-11-11T04:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 1,
-        "clouds": 0,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "clearsky_night",
+        "next1Hour": "partlycloudy_night",
         "next6Hours": "fair_night",
         "next12Hours": "fair_day"
       },
@@ -2111,84 +1830,36 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.9
+        "value": 5
       },
       "wind": {
-        "direction": 186,
-        "speed": 0.8
+        "direction": 206,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 4.9
+        "value": 5
       },
       "pressure": {
-        "value": 1017
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 5,
-        "high": 5,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
+        "value": 52,
+        "high": 10,
+        "middle": 1,
+        "low": 48,
+        "fog": 21
       },
       "humidity": {
-        "value": 74.5
+        "value": 77.8
       },
       "dewPoint": {
-        "value": 0.6
+        "value": 1.3
       },
       "start": "2025-11-11T04:00:00+01:00",
       "end": "2025-11-11T05:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "fair_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 4.6
-      },
-      "wind": {
-        "direction": 203,
-        "speed": 0.7
-      },
-      "feelsLike": {
-        "value": 4.6
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 13,
-        "high": 13,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 75.4
-      },
-      "dewPoint": {
-        "value": 0.5
-      },
-      "start": "2025-11-11T05:00:00+01:00",
-      "end": "2025-11-11T06:00:00+01:00"
     },
     {
       "symbol": {
@@ -2207,14 +1878,62 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.5
+        "value": 5.3
       },
       "wind": {
-        "direction": 231,
-        "speed": 0.6
+        "direction": 206,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 4.5
+        "value": 5.3
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 42,
+        "high": 9,
+        "middle": 1,
+        "low": 36,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 78
+      },
+      "dewPoint": {
+        "value": 1.6
+      },
+      "start": "2025-11-11T05:00:00+01:00",
+      "end": "2025-11-11T06:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 5.1
+      },
+      "wind": {
+        "direction": 232,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 5.1
       },
       "pressure": {
         "value": 1017
@@ -2223,17 +1942,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 44,
-        "high": 29,
+        "value": 36,
+        "high": 13,
         "middle": 0,
-        "low": 21,
+        "low": 27,
         "fog": 21
       },
       "humidity": {
-        "value": 75.7
+        "value": 77.5
       },
       "dewPoint": {
-        "value": 0.4
+        "value": 1.3
       },
       "start": "2025-11-11T06:00:00+01:00",
       "end": "2025-11-11T07:00:00+01:00"
@@ -2249,39 +1968,39 @@
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
         "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 4.5
+        "value": 5
       },
       "wind": {
-        "direction": 303,
-        "speed": 0.8
+        "direction": 260,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 4.5
+        "value": 5
       },
       "pressure": {
-        "value": 1017
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 47,
-        "high": 31,
-        "middle": 0,
-        "low": 23,
+        "value": 46,
+        "high": 34,
+        "middle": 1,
+        "low": 21,
         "fog": 21
       },
       "humidity": {
-        "value": 76.2
+        "value": 78.3
       },
       "dewPoint": {
-        "value": 0.5
+        "value": 1.4
       },
       "start": "2025-11-11T07:00:00+01:00",
       "end": "2025-11-11T08:00:00+01:00"
@@ -2297,20 +2016,20 @@
       "symbolCode": {
         "next1Hour": "fair_day",
         "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 4.7
+        "value": 4.9
       },
       "wind": {
-        "direction": 210,
-        "speed": 1
+        "direction": 167,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 4.7
+        "value": 4.9
       },
       "pressure": {
         "value": 1018
@@ -2319,17 +2038,17 @@
         "value": 0.1
       },
       "cloudCover": {
-        "value": 36,
-        "high": 13,
+        "value": 24,
+        "high": 0,
         "middle": 0,
-        "low": 27,
+        "low": 24,
         "fog": 21
       },
       "humidity": {
-        "value": 77.6
+        "value": 81.1
       },
       "dewPoint": {
-        "value": 1
+        "value": 1.8
       },
       "start": "2025-11-11T08:00:00+01:00",
       "end": "2025-11-11T09:00:00+01:00"
@@ -2344,65 +2063,65 @@
       },
       "symbolCode": {
         "next1Hour": "fair_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 6.9
+        "value": 7.2
       },
       "wind": {
-        "direction": 163,
+        "direction": 87,
         "speed": 1.2
       },
       "feelsLike": {
-        "value": 6.9
+        "value": 7.2
       },
       "pressure": {
-        "value": 1018
+        "value": 1019
       },
       "uvIndex": {
         "value": 0.4
       },
       "cloudCover": {
-        "value": 35,
-        "high": 1,
+        "value": 29,
+        "high": 0,
         "middle": 0,
-        "low": 35,
+        "low": 29,
         "fog": 21
       },
       "humidity": {
-        "value": 80.8
+        "value": 83.6
       },
       "dewPoint": {
-        "value": 3.7
+        "value": 4.5
       },
       "start": "2025-11-11T09:00:00+01:00",
       "end": "2025-11-11T10:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_day",
+        "next1Hour": "fair_day",
         "next6Hours": "clearsky_day",
-        "next12Hours": "fair_day"
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.6
+        "value": 8.9
       },
       "wind": {
-        "direction": 328,
+        "direction": 57,
         "speed": 1.6
       },
       "feelsLike": {
@@ -2415,46 +2134,46 @@
         "value": 0.9
       },
       "cloudCover": {
-        "value": 41,
-        "high": 6,
+        "value": 29,
+        "high": 0,
         "middle": 0,
-        "low": 38,
-        "fog": 0
+        "low": 29,
+        "fog": 1
       },
       "humidity": {
-        "value": 77.5
+        "value": 79.4
       },
       "dewPoint": {
-        "value": 4.8
+        "value": 5.5
       },
       "start": "2025-11-11T10:00:00+01:00",
       "end": "2025-11-11T11:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_day",
+        "next1Hour": "fair_day",
         "next6Hours": "clearsky_day",
-        "next12Hours": "fair_day"
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 10.1
+        "value": 10.6
       },
       "wind": {
-        "direction": 331,
+        "direction": 342,
         "speed": 1.3
       },
       "feelsLike": {
-        "value": 10.1
+        "value": 10.6
       },
       "pressure": {
         "value": 1019
@@ -2463,17 +2182,17 @@
         "value": 1.5
       },
       "cloudCover": {
-        "value": 43,
-        "high": 19,
+        "value": 24,
+        "high": 0,
         "middle": 0,
-        "low": 28,
-        "fog": 1
+        "low": 24,
+        "fog": 2
       },
       "humidity": {
-        "value": 81.6
+        "value": 82.2
       },
       "dewPoint": {
-        "value": 7.1
+        "value": 7.7
       },
       "start": "2025-11-11T11:00:00+01:00",
       "end": "2025-11-11T12:00:00+01:00"
@@ -2488,21 +2207,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 11.5
+        "value": 12
       },
       "wind": {
-        "direction": 7,
-        "speed": 1.2
+        "direction": 68,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 11.5
+        "value": 12
       },
       "pressure": {
         "value": 1018
@@ -2511,17 +2230,17 @@
         "value": 1.8
       },
       "cloudCover": {
-        "value": 8,
-        "high": 4,
+        "value": 1,
+        "high": 0,
         "middle": 0,
-        "low": 5,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 77.1
+        "value": 77.9
       },
       "dewPoint": {
-        "value": 7.6
+        "value": 8.3
       },
       "start": "2025-11-11T12:00:00+01:00",
       "end": "2025-11-11T13:00:00+01:00"
@@ -2536,21 +2255,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "partlycloudy_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.5
+        "value": 12.9
       },
       "wind": {
-        "direction": 29,
-        "speed": 1.4
+        "direction": 97,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 13
+        "value": 12.9
       },
       "pressure": {
         "value": 1017
@@ -2559,17 +2278,17 @@
         "value": 1.7
       },
       "cloudCover": {
-        "value": 2,
-        "high": 0,
+        "value": 4,
+        "high": 3,
         "middle": 0,
-        "low": 2,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 71.8
+        "value": 72.3
       },
       "dewPoint": {
-        "value": 7.5
+        "value": 8
       },
       "start": "2025-11-11T13:00:00+01:00",
       "end": "2025-11-11T14:00:00+01:00"
@@ -2584,20 +2303,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "partlycloudy_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13
+        "value": 13.4
       },
       "wind": {
-        "direction": 45,
-        "speed": 1.3
+        "direction": 78,
+        "speed": 1.2
       },
       "feelsLike": {
-        "value": 13
+        "value": 13.4
       },
       "pressure": {
         "value": 1017
@@ -2606,17 +2326,17 @@
         "value": 1.2
       },
       "cloudCover": {
-        "value": 6,
-        "high": 4,
+        "value": 5,
+        "high": 5,
         "middle": 0,
-        "low": 2,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 68.7
+        "value": 68.5
       },
       "dewPoint": {
-        "value": 7.4
+        "value": 7.7
       },
       "start": "2025-11-11T14:00:00+01:00",
       "end": "2025-11-11T15:00:00+01:00"
@@ -2631,20 +2351,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "partlycloudy_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.9
+        "value": 13.4
       },
       "wind": {
-        "direction": 64,
-        "speed": 1.2
+        "direction": 35,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 12.9
+        "value": 13.4
       },
       "pressure": {
         "value": 1017
@@ -2653,17 +2374,17 @@
         "value": 0.6
       },
       "cloudCover": {
-        "value": 13,
-        "high": 11,
+        "value": 0,
+        "high": 0,
         "middle": 0,
-        "low": 2,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 70
+        "value": 68.6
       },
       "dewPoint": {
-        "value": 7.5
+        "value": 7.7
       },
       "start": "2025-11-11T15:00:00+01:00",
       "end": "2025-11-11T16:00:00+01:00"
@@ -2678,20 +2399,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "partlycloudy_night"
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12
+        "value": 12.4
       },
       "wind": {
-        "direction": 343,
-        "speed": 0.8
+        "direction": 308,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 12
+        "value": 12.4
       },
       "pressure": {
         "value": 1017
@@ -2700,20 +2422,258 @@
         "value": 0.2
       },
       "cloudCover": {
-        "value": 2,
-        "high": 1,
+        "value": 0,
+        "high": 0,
         "middle": 0,
-        "low": 2,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 81.3
+        "value": 79.6
       },
       "dewPoint": {
-        "value": 8.9
+        "value": 9
       },
       "start": "2025-11-11T16:00:00+01:00",
       "end": "2025-11-11T17:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 9.8
+      },
+      "wind": {
+        "direction": 307,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 9.8
+      },
+      "pressure": {
+        "value": 1017
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.8
+      },
+      "dewPoint": {
+        "value": 7.2
+      },
+      "start": "2025-11-11T17:00:00+01:00",
+      "end": "2025-11-11T18:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.9
+      },
+      "wind": {
+        "direction": 330,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 8.9
+      },
+      "pressure": {
+        "value": 1017
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.7
+      },
+      "dewPoint": {
+        "value": 6.4
+      },
+      "start": "2025-11-11T18:00:00+01:00",
+      "end": "2025-11-11T19:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.6
+      },
+      "wind": {
+        "direction": 341,
+        "speed": 0.9
+      },
+      "feelsLike": {
+        "value": 8.6
+      },
+      "pressure": {
+        "value": 1017
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.9
+      },
+      "dewPoint": {
+        "value": 6.1
+      },
+      "start": "2025-11-11T19:00:00+01:00",
+      "end": "2025-11-11T20:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.2
+      },
+      "wind": {
+        "direction": 314,
+        "speed": 0.9
+      },
+      "feelsLike": {
+        "value": 8.2
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 85.7
+      },
+      "dewPoint": {
+        "value": 5.9
+      },
+      "start": "2025-11-11T20:00:00+01:00",
+      "end": "2025-11-11T21:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 7.8
+      },
+      "wind": {
+        "direction": 20,
+        "speed": 1
+      },
+      "feelsLike": {
+        "value": 7.8
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 9,
+        "high": 0,
+        "middle": 0,
+        "low": 9,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 85.3
+      },
+      "dewPoint": {
+        "value": 5.4
+      },
+      "start": "2025-11-11T21:00:00+01:00",
+      "end": "2025-11-11T22:00:00+01:00"
     },
     {
       "symbol": {
@@ -2731,83 +2691,130 @@
         "value": 0
       },
       "temperature": {
-        "value": 9.5
+        "value": 7.4
       },
       "wind": {
-        "direction": 314,
-        "speed": 0.7
+        "direction": 8,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 9.5
+        "value": 7.4
       },
       "pressure": {
-        "value": 1017
+        "value": 1018
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 27,
-        "high": 27,
+        "value": 31,
+        "high": 0,
         "middle": 0,
-        "low": 1,
-        "fog": 0
+        "low": 31,
+        "fog": 21
       },
       "humidity": {
-        "value": 82.8
+        "value": 84.5
       },
       "dewPoint": {
-        "value": 6.7
+        "value": 4.9
       },
-      "start": "2025-11-11T17:00:00+01:00",
-      "end": "2025-11-11T18:00:00+01:00"
+      "start": "2025-11-11T22:00:00+01:00",
+      "end": "2025-11-11T23:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
+        "next1Hour": "fair_night",
         "next6Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.7
+        "value": 7.1
       },
       "wind": {
-        "direction": 312,
-        "speed": 0.6
+        "direction": 325,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 8.7
+        "value": 7.1
       },
       "pressure": {
-        "value": 1017
+        "value": 1019
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 99,
-        "high": 99,
+        "value": 30,
+        "high": 0,
         "middle": 0,
-        "low": 1,
-        "fog": 0
+        "low": 30,
+        "fog": 21
       },
       "humidity": {
-        "value": 82.8
+        "value": 83.7
       },
       "dewPoint": {
-        "value": 5.9
+        "value": 4.4
       },
-      "start": "2025-11-11T18:00:00+01:00",
-      "end": "2025-11-11T19:00:00+01:00"
+      "start": "2025-11-11T23:00:00+01:00",
+      "end": "2025-11-12T00:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 6.7
+      },
+      "wind": {
+        "direction": 297,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 6.7
+      },
+      "pressure": {
+        "value": 1019
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 36,
+        "high": 2,
+        "middle": 0,
+        "low": 34,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 82
+      },
+      "dewPoint": {
+        "value": 3.7
+      },
+      "start": "2025-11-12T00:00:00+01:00",
+      "end": "2025-11-12T01:00:00+01:00"
     },
     {
       "symbol": {
@@ -2826,152 +2833,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.4
+        "value": 6.4
       },
       "wind": {
-        "direction": 305,
-        "speed": 1
-      },
-      "feelsLike": {
-        "value": 8.4
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 99,
-        "high": 99,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 81.3
-      },
-      "dewPoint": {
-        "value": 5.3
-      },
-      "start": "2025-11-11T19:00:00+01:00",
-      "end": "2025-11-11T20:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.1
-      },
-      "wind": {
-        "direction": 327,
-        "speed": 1
-      },
-      "feelsLike": {
-        "value": 8.1
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 24,
-        "high": 24,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 80.5
-      },
-      "dewPoint": {
-        "value": 4.9
-      },
-      "start": "2025-11-11T20:00:00+01:00",
-      "end": "2025-11-11T21:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 7.8
-      },
-      "wind": {
-        "direction": 339,
+        "direction": 292,
         "speed": 0.6
       },
       "feelsLike": {
-        "value": 7.8
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 0,
-        "high": 0,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 78.8
-      },
-      "dewPoint": {
-        "value": 4.3
-      },
-      "start": "2025-11-11T21:00:00+01:00",
-      "end": "2025-11-11T22:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 7.4
-      },
-      "wind": {
-        "direction": 301,
-        "speed": 0.4
-      },
-      "feelsLike": {
-        "value": 7.4
+        "value": 6.4
       },
       "pressure": {
         "value": 1018
@@ -2980,208 +2849,296 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 0,
-        "high": 0,
+        "value": 67,
+        "high": 50,
         "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 78.4
-      },
-      "dewPoint": {
-        "value": 3.8
-      },
-      "start": "2025-11-11T22:00:00+01:00",
-      "end": "2025-11-11T23:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 3,
-        "clouds": 2,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "partlycloudy_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 6.7
-      },
-      "wind": {
-        "direction": 239,
-        "speed": 0.7
-      },
-      "feelsLike": {
-        "value": 6.7
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 48,
-        "high": 27,
-        "middle": 0,
-        "low": 21,
+        "low": 36,
         "fog": 21
       },
       "humidity": {
-        "value": 77.1
+        "value": 81.1
       },
       "dewPoint": {
-        "value": 2.8
+        "value": 3.3
       },
-      "start": "2025-11-11T23:00:00+01:00",
-      "end": "2025-11-12T00:00:00+01:00"
+      "start": "2025-11-12T01:00:00+01:00",
+      "end": "2025-11-12T02:00:00+01:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "partlycloudy_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 6.4
-      },
-      "wind": {
-        "direction": 212,
-        "speed": 0.7
-      },
-      "feelsLike": {
-        "value": 6.4
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 91,
-        "high": 90,
-        "middle": 0,
-        "low": 13,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 74.8
-      },
-      "dewPoint": {
-        "value": 2.1
-      },
-      "start": "2025-11-12T00:00:00+01:00",
-      "end": "2025-11-12T01:00:00+01:00"
-    }
-  ],
-  "longIntervals": [
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "partlycloudy_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 11,
-        "min": 5.2,
-        "max": 11
-      },
-      "wind": {
-        "direction": 262,
-        "speed": 0.9
-      },
-      "feelsLike": {
-        "value": 11
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "cloudCover": {
-        "value": 50,
-        "high": 0,
-        "middle": 37,
-        "low": 23,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 76.1
-      },
-      "dewPoint": {
-        "value": 6.9
-      },
-      "start": "2025-11-09T14:00:00+01:00",
-      "end": "2025-11-09T18:00:00+01:00",
-      "nominalStart": "2025-11-09T12:00:00+01:00",
-      "nominalEnd": "2025-11-09T18:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 15,
+        "n": 4,
         "clouds": 3,
         "precip": 0,
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fog",
-        "next12Hours": "fog"
+        "next1Hour": "cloudy"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 6.9,
-        "min": 3.2,
-        "max": 6.1
+        "value": 6.1
       },
       "wind": {
-        "direction": 304,
-        "speed": 0.8
+        "direction": 266,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 6.9
+        "value": 6.1
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 90,
+        "high": 83,
+        "middle": 0,
+        "low": 38,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 81.8
+      },
+      "dewPoint": {
+        "value": 3.1
+      },
+      "start": "2025-11-12T02:00:00+01:00",
+      "end": "2025-11-12T03:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 4,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "cloudy"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 5.8
+      },
+      "wind": {
+        "direction": 280,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 5.8
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 87,
+        "high": 80,
+        "middle": 0,
+        "low": 41,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 82.5
+      },
+      "dewPoint": {
+        "value": 2.9
+      },
+      "start": "2025-11-12T03:00:00+01:00",
+      "end": "2025-11-12T04:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 5.5
+      },
+      "wind": {
+        "direction": 264,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 5.5
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 55,
+        "high": 17,
+        "middle": 0,
+        "low": 45,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 83.1
+      },
+      "dewPoint": {
+        "value": 2.7
+      },
+      "start": "2025-11-12T04:00:00+01:00",
+      "end": "2025-11-12T05:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 5.2
+      },
+      "wind": {
+        "direction": 236,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 5.2
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 45,
+        "high": 1,
+        "middle": 0,
+        "low": 45,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 83.5
+      },
+      "dewPoint": {
+        "value": 2.5
+      },
+      "start": "2025-11-12T05:00:00+01:00",
+      "end": "2025-11-12T06:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 4.9
+      },
+      "wind": {
+        "direction": 218,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 4.9
+      },
+      "pressure": {
+        "value": 1018
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 43,
+        "high": 0,
+        "middle": 0,
+        "low": 43,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 81.2
+      },
+      "dewPoint": {
+        "value": 1.8
+      },
+      "start": "2025-11-12T06:00:00+01:00",
+      "end": "2025-11-12T07:00:00+01:00"
+    }
+  ],
+  "longIntervals": [
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 6.7,
+        "min": 4.8,
+        "max": 5.9
+      },
+      "wind": {
+        "direction": 272,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 6.7
       },
       "pressure": {
         "value": 1019
       },
       "cloudCover": {
-        "value": 30,
+        "value": 49,
         "high": 0,
         "middle": 0,
-        "low": 30,
-        "fog": 0
+        "low": 49,
+        "fog": 30
       },
       "humidity": {
-        "value": 90.3
+        "value": 92.9
       },
       "dewPoint": {
-        "value": 5.3
+        "value": 5.6
       },
-      "start": "2025-11-09T18:00:00+01:00",
+      "start": "2025-11-09T20:00:00+01:00",
       "end": "2025-11-10T00:00:00+01:00",
       "nominalStart": "2025-11-09T18:00:00+01:00",
       "nominalEnd": "2025-11-10T00:00:00+01:00"
@@ -3194,7 +3151,7 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "partlycloudy_night",
         "next6Hours": "fog",
         "next12Hours": "fog"
       },
@@ -3202,32 +3159,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 3.7,
-        "min": 3.2,
-        "max": 4.6
+        "value": 5.1,
+        "min": 3.9,
+        "max": 5
       },
       "wind": {
-        "direction": 291,
-        "speed": 1
+        "direction": 264,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 3.7
+        "value": 5.1
       },
       "pressure": {
         "value": 1019
       },
       "cloudCover": {
-        "value": 90,
-        "high": 3,
+        "value": 84,
+        "high": 54,
         "middle": 0,
-        "low": 90,
-        "fog": 51
+        "low": 65,
+        "fog": 21
       },
       "humidity": {
-        "value": 97.3
+        "value": 96
       },
       "dewPoint": {
-        "value": 3.2
+        "value": 4.4
       },
       "start": "2025-11-10T00:00:00+01:00",
       "end": "2025-11-10T06:00:00+01:00",
@@ -3242,7 +3199,7 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fog",
+        "next1Hour": "cloudy",
         "next6Hours": "fog",
         "next12Hours": "cloudy"
       },
@@ -3250,32 +3207,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.6,
-        "min": 4.2,
-        "max": 8.2
+        "value": 3.9,
+        "min": 3.5,
+        "max": 8.8
       },
       "wind": {
-        "direction": 272,
-        "speed": 1.1
+        "direction": 245,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 4.6
+        "value": 3.9
       },
       "pressure": {
         "value": 1018
       },
       "cloudCover": {
         "value": 100,
-        "high": 66,
-        "middle": 14,
+        "high": 78,
+        "middle": 8,
         "low": 100,
-        "fog": 48
+        "fog": 21
       },
       "humidity": {
-        "value": 95.8
+        "value": 98.9
       },
       "dewPoint": {
-        "value": 3.9
+        "value": 3.6
       },
       "start": "2025-11-10T06:00:00+01:00",
       "end": "2025-11-10T12:00:00+01:00",
@@ -3298,29 +3255,29 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.2,
-        "min": 5.7,
-        "max": 9.2
+        "value": 8.8,
+        "min": 7.3,
+        "max": 10.6
       },
       "wind": {
-        "direction": 276,
+        "direction": 280,
         "speed": 1
       },
       "feelsLike": {
-        "value": 8.2
+        "value": 8.8
       },
       "pressure": {
-        "value": 1018
+        "value": 1017
       },
       "cloudCover": {
         "value": 100,
-        "high": 100,
-        "middle": 76,
-        "low": 77,
+        "high": 99,
+        "middle": 48,
+        "low": 75,
         "fog": 0
       },
       "humidity": {
-        "value": 92.8
+        "value": 89.3
       },
       "dewPoint": {
         "value": 7.1
@@ -3347,32 +3304,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 5.7,
-        "min": 5,
-        "max": 5.5
+        "value": 7.3,
+        "min": 4.9,
+        "max": 6.3
       },
       "wind": {
-        "direction": 238,
+        "direction": 243,
         "speed": 0.9
       },
       "feelsLike": {
-        "value": 5.7
+        "value": 7.3
       },
       "pressure": {
         "value": 1016
       },
       "cloudCover": {
-        "value": 100,
-        "high": 100,
-        "middle": 0,
-        "low": 6,
-        "fog": 3
+        "value": 98,
+        "high": 98,
+        "middle": 7,
+        "low": 0,
+        "fog": 0
       },
       "humidity": {
-        "value": 93.1
+        "value": 88.6
       },
       "dewPoint": {
-        "value": 4.6
+        "value": 5.5
       },
       "start": "2025-11-10T18:00:00+01:00",
       "end": "2025-11-11T00:00:00+01:00",
@@ -3381,47 +3338,47 @@
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "partlycloudy_day"
+        "next1Hour": "fair_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 5,
-        "min": 4.5,
+        "value": 4.9,
+        "min": 4.7,
         "max": 5.3
       },
       "wind": {
-        "direction": 226,
-        "speed": 1.1
+        "direction": 231,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 5
+        "value": 4
       },
       "pressure": {
         "value": 1018
       },
       "cloudCover": {
-        "value": 94,
-        "high": 93,
-        "middle": 4,
+        "value": 34,
+        "high": 34,
+        "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 74.3
+        "value": 81.4
       },
       "dewPoint": {
-        "value": 0.6
+        "value": 1.8
       },
       "start": "2025-11-11T00:00:00+01:00",
       "end": "2025-11-11T06:00:00+01:00",
@@ -3437,7 +3394,7 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
+        "next1Hour": "fair_night",
         "next6Hours": "fair_day",
         "next12Hours": "fair_day"
       },
@@ -3445,32 +3402,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.5,
-        "min": 4.5,
-        "max": 11.5
+        "value": 5.1,
+        "min": 4.9,
+        "max": 12
       },
       "wind": {
-        "direction": 231,
-        "speed": 0.6
+        "direction": 232,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 4.5
+        "value": 5.1
       },
       "pressure": {
         "value": 1017
       },
       "cloudCover": {
-        "value": 44,
-        "high": 29,
+        "value": 36,
+        "high": 13,
         "middle": 0,
-        "low": 21,
+        "low": 27,
         "fog": 21
       },
       "humidity": {
-        "value": 75.7
+        "value": 77.5
       },
       "dewPoint": {
-        "value": 0.4
+        "value": 1.3
       },
       "start": "2025-11-11T06:00:00+01:00",
       "end": "2025-11-11T12:00:00+01:00",
@@ -3479,52 +3436,101 @@
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
+        "next6Hours": "clearsky_day",
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 11.5,
-        "min": 8.7,
-        "max": 13
+        "value": 12,
+        "min": 8.9,
+        "max": 13.4
       },
       "wind": {
-        "direction": 7,
-        "speed": 1.2
+        "direction": 68,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 11.5
+        "value": 12
       },
       "pressure": {
         "value": 1018
       },
       "cloudCover": {
-        "value": 8,
-        "high": 4,
+        "value": 1,
+        "high": 0,
         "middle": 0,
-        "low": 5,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 77.1
+        "value": 77.9
       },
       "dewPoint": {
-        "value": 7.6
+        "value": 8.3
       },
       "start": "2025-11-11T12:00:00+01:00",
       "end": "2025-11-11T18:00:00+01:00",
       "nominalStart": "2025-11-11T12:00:00+01:00",
       "nominalEnd": "2025-11-11T18:00:00+01:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.9,
+        "min": 6.7,
+        "max": 8.6
+      },
+      "wind": {
+        "direction": 330,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 8.9
+      },
+      "pressure": {
+        "value": 1017
+      },
+      "cloudCover": {
+        "value": 0,
+        "high": 0,
+        "middle": 0,
+        "low": 0,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.7
+      },
+      "dewPoint": {
+        "value": 6.4
+      },
+      "start": "2025-11-11T18:00:00+01:00",
+      "end": "2025-11-12T00:00:00+01:00",
+      "nominalStart": "2025-11-11T18:00:00+01:00",
+      "nominalEnd": "2025-11-12T00:00:00+01:00"
     },
     {
       "symbol": {
@@ -3535,92 +3541,42 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
+        "next1Hour": "fair_night",
         "next6Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.7,
-        "min": 6.4,
-        "max": 8.4
+        "value": 6.7,
+        "min": 4.9,
+        "max": 6.4
       },
       "wind": {
-        "direction": 312,
-        "speed": 0.6
+        "direction": 297,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 8.7
+        "value": 6.7
       },
       "pressure": {
-        "value": 1017
+        "value": 1019
       },
       "cloudCover": {
-        "value": 99,
-        "high": 99,
+        "value": 36,
+        "high": 2,
         "middle": 0,
-        "low": 1,
-        "fog": 0
+        "low": 34,
+        "fog": 21
       },
       "humidity": {
-        "value": 82.8
+        "value": 82
       },
       "dewPoint": {
-        "value": 5.9
+        "value": 3.7
       },
-      "start": "2025-11-11T18:00:00+01:00",
-      "end": "2025-11-12T00:00:00+01:00",
-      "nominalStart": "2025-11-11T18:00:00+01:00",
-      "nominalEnd": "2025-11-12T00:00:00+01:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 6.1,
-        "min": 4.3,
-        "max": 6.1
-      },
-      "wind": {
-        "direction": 229,
-        "speed": 0.5
-      },
-      "feelsLike": {
-        "value": 6.1
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 91,
-        "high": 89,
-        "middle": 0,
-        "low": 8,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 74.7
-      },
-      "dewPoint": {
-        "value": 1.8
-      },
-      "start": "2025-11-12T01:00:00+01:00",
-      "end": "2025-11-12T07:00:00+01:00",
+      "start": "2025-11-12T00:00:00+01:00",
+      "end": "2025-11-12T06:00:00+01:00",
       "nominalStart": "2025-11-12T00:00:00+01:00",
       "nominalEnd": "2025-11-12T06:00:00+01:00"
     },
@@ -3639,32 +3595,35 @@
         "value": 0
       },
       "temperature": {
-        "value": 4.3,
+        "value": 4.7,
         "min": 4.2,
         "max": 13.4
       },
       "wind": {
-        "direction": 242,
-        "speed": 0.4
+        "direction": 243,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 4.3
+        "value": 4.7
       },
       "pressure": {
         "value": 1019
       },
+      "uvIndex": {
+        "value": 0
+      },
       "cloudCover": {
-        "value": 98,
-        "high": 97,
+        "value": 45,
+        "high": 6,
         "middle": 0,
-        "low": 20,
-        "fog": 0
+        "low": 38,
+        "fog": 21
       },
       "humidity": {
-        "value": 81.4
+        "value": 79.5
       },
       "dewPoint": {
-        "value": 1.2
+        "value": 1.3
       },
       "start": "2025-11-12T07:00:00+01:00",
       "end": "2025-11-12T13:00:00+01:00",
