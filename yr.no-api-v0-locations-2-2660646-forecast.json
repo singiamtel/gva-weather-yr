@@ -1,6 +1,6 @@
 {
-  "created": "2026-10-11T21:18:58+02:00",
-  "update": "2026-10-11T22:18:58+02:00",
+  "created": "2026-10-12T15:17:32+02:00",
+  "update": "2026-10-12T16:17:32+02:00",
   "uv": {
     "duration": {
       "days": 2,
@@ -11,16 +11,16 @@
   },
   "dayIntervals": [
     {
-      "start": "2026-10-12T00:00:00+02:00",
+      "start": "2026-10-12T17:00:00+02:00",
       "end": "2026-10-12T23:00:00+02:00",
-      "twentyFourHourSymbol": "clearsky_day",
+      "twentyFourHourSymbol": "clearsky_night",
       "twelveHourSymbols": [
-        "clearsky_day",
-        "clearsky_day"
+        null,
+        "clearsky_night"
       ],
       "sixHourSymbols": [
-        "clearsky_night",
-        "fair_day",
+        null,
+        null,
         "clearsky_day",
         "clearsky_night"
       ],
@@ -29,13 +29,13 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.3,
-        "min": 8,
-        "max": 15.9
+        "value": 15,
+        "min": 10.1,
+        "max": 15
       },
       "wind": {
         "min": 1.1,
-        "max": 2.3
+        "max": 2
       }
     },
     {
@@ -47,51 +47,51 @@
         "partlycloudy_day"
       ],
       "sixHourSymbols": [
-        "fair_night",
+        "clearsky_night",
         "clearsky_day",
         "partlycloudy_day",
-        "cloudy"
-      ],
-      "symbolConfidence": "None",
-      "precipitation": {
-        "value": 0.2
-      },
-      "temperature": {
-        "value": 18.4,
-        "min": 8.5,
-        "max": 19.5
-      },
-      "wind": {
-        "min": 0.6,
-        "max": 1
-      }
-    },
-    {
-      "start": "2026-10-14T00:00:00+02:00",
-      "end": "2026-10-14T23:00:00+02:00",
-      "twentyFourHourSymbol": "fair_day",
-      "twelveHourSymbols": [
-        "partlycloudy_day",
-        "fair_day"
-      ],
-      "sixHourSymbols": [
-        "partlycloudy_night",
-        "partlycloudy_day",
-        "clearsky_day",
-        "fair_night"
+        "partlycloudy_night"
       ],
       "symbolConfidence": "None",
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 18.9,
-        "min": 11.9,
+        "value": 17.9,
+        "min": 8.1,
+        "max": 19.2
+      },
+      "wind": {
+        "min": 0.6,
+        "max": 0.9
+      }
+    },
+    {
+      "start": "2026-10-14T00:00:00+02:00",
+      "end": "2026-10-14T23:00:00+02:00",
+      "twentyFourHourSymbol": "partlycloudy_day",
+      "twelveHourSymbols": [
+        "partlycloudy_day",
+        "clearsky_day"
+      ],
+      "sixHourSymbols": [
+        "cloudy",
+        "partlycloudy_day",
+        "fair_day",
+        "clearsky_night"
+      ],
+      "symbolConfidence": "None",
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 19.4,
+        "min": 9.8,
         "max": 19.6
       },
       "wind": {
-        "min": 0.1,
-        "max": 1.9
+        "min": 0.5,
+        "max": 2.4
       }
     },
     {
@@ -100,10 +100,10 @@
       "twentyFourHourSymbol": "fair_day",
       "twelveHourSymbols": [
         "partlycloudy_day",
-        "clearsky_day"
+        "fair_day"
       ],
       "sixHourSymbols": [
-        "fair_night",
+        "partlycloudy_night",
         "cloudy",
         "clearsky_day",
         "clearsky_night"
@@ -113,13 +113,13 @@
         "value": 0
       },
       "temperature": {
-        "value": 19,
-        "min": 9.2,
-        "max": 20.1
+        "value": 18.5,
+        "min": 8.9,
+        "max": 19.7
       },
       "wind": {
-        "min": 0.1,
-        "max": 0.5
+        "min": 0.2,
+        "max": 0.8
       }
     },
     {
@@ -128,11 +128,11 @@
       "twentyFourHourSymbol": "clearsky_day",
       "twelveHourSymbols": [
         "fair_day",
-        "fair_day"
+        "clearsky_day"
       ],
       "sixHourSymbols": [
-        "fair_night",
-        "fair_day",
+        "partlycloudy_night",
+        "partlycloudy_day",
         "clearsky_day",
         "clearsky_night"
       ],
@@ -141,13 +141,13 @@
         "value": 0
       },
       "temperature": {
-        "value": 20.5,
-        "min": 10.5,
-        "max": 21.5
+        "value": 20.1,
+        "min": 10.4,
+        "max": 21
       },
       "wind": {
         "min": 0.1,
-        "max": 0.5
+        "max": 0.9
       }
     },
     {
@@ -155,55 +155,55 @@
       "end": "2026-10-17T23:00:00+02:00",
       "twentyFourHourSymbol": "lightrain",
       "twelveHourSymbols": [
-        "lightrain",
-        "partlycloudy_day"
+        "lightrainshowers_day",
+        "lightrain"
       ],
       "sixHourSymbols": [
-        "cloudy",
+        "fair_night",
+        "lightrain",
         "rain",
-        "cloudy",
-        "partlycloudy_night"
+        "lightrain"
       ],
       "symbolConfidence": "None",
       "precipitation": {
-        "value": 2.2
+        "value": 4.6
       },
       "temperature": {
-        "value": 13.5,
-        "min": 9.9,
-        "max": 14.3
+        "value": 15.6,
+        "min": 9.8,
+        "max": 15.8
       },
       "wind": {
-        "min": 0.3,
-        "max": 5.5
+        "min": 0.2,
+        "max": 1.2
       }
     },
     {
       "start": "2026-10-18T00:00:00+02:00",
       "end": "2026-10-18T23:00:00+02:00",
-      "twentyFourHourSymbol": "heavyrain",
+      "twentyFourHourSymbol": "cloudy",
       "twelveHourSymbols": [
-        "rain",
-        "rain"
+        "cloudy",
+        "cloudy"
       ],
       "sixHourSymbols": [
-        "lightrain",
-        "heavyrain",
-        "heavyrain",
-        "rain"
+        "cloudy",
+        "cloudy",
+        "cloudy",
+        "partlycloudy_night"
       ],
       "symbolConfidence": "None",
       "precipitation": {
-        "value": 15.6
+        "value": 0.3
       },
       "temperature": {
-        "value": 7.8,
-        "min": 7.6,
-        "max": 9.9
+        "value": 14.7,
+        "min": 10.6,
+        "max": 15
       },
       "wind": {
-        "min": 2.1,
-        "max": 6.6
+        "min": 0.2,
+        "max": 2
       }
     },
     {
@@ -215,36 +215,36 @@
         "fair_day"
       ],
       "sixHourSymbols": [
+        "partlycloudy_night",
         "cloudy",
-        "partlycloudy_day",
-        "fair_day",
-        "clearsky_night"
+        "clearsky_day",
+        "fair_night"
       ],
       "symbolConfidence": "None",
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14,
-        "min": 8,
-        "max": 14.5
+        "value": 16.6,
+        "min": 10.1,
+        "max": 17.2
       },
       "wind": {
-        "min": 0.6,
-        "max": 2.2
+        "min": 0.5,
+        "max": 1.1
       }
     },
     {
       "start": "2026-10-20T00:00:00+02:00",
       "end": "2026-10-20T23:00:00+02:00",
-      "twentyFourHourSymbol": "fair_day",
+      "twentyFourHourSymbol": "clearsky_day",
       "twelveHourSymbols": [
-        "partlycloudy_day",
+        "clearsky_day",
         "clearsky_day"
       ],
       "sixHourSymbols": [
-        "partlycloudy_night",
-        "cloudy",
+        "clearsky_night",
+        "clearsky_day",
         "clearsky_day",
         "clearsky_night"
       ],
@@ -253,835 +253,47 @@
         "value": 0
       },
       "temperature": {
-        "value": 12.8,
-        "min": 6.7,
-        "max": 13.9
+        "value": 15.4,
+        "min": 8.9,
+        "max": 15.7
       },
       "wind": {
-        "min": 1.4,
-        "max": 5.6
+        "min": 0.8,
+        "max": 1.9
+      }
+    },
+    {
+      "start": "2026-10-21T00:00:00+02:00",
+      "end": "2026-10-21T23:00:00+02:00",
+      "twentyFourHourSymbol": "fair_day",
+      "twelveHourSymbols": [
+        "fair_day",
+        "clearsky_day"
+      ],
+      "sixHourSymbols": [
+        "clearsky_night",
+        "partlycloudy_day",
+        "clearsky_day",
+        "clearsky_night"
+      ],
+      "symbolConfidence": "None",
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 15.4,
+        "min": 7.8,
+        "max": 16.3
+      },
+      "wind": {
+        "min": 0.4,
+        "max": 1.1
       }
     }
   ],
   "shortIntervals": [
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 10.3
-      },
-      "wind": {
-        "direction": 25,
-        "speed": 2
-      },
-      "feelsLike": {
-        "value": 10
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 29,
-        "high": 0,
-        "middle": 28,
-        "low": 2,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 82.8
-      },
-      "dewPoint": {
-        "value": 7.5
-      },
-      "start": "2026-10-12T00:00:00+02:00",
-      "end": "2026-10-12T01:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 10
-      },
-      "wind": {
-        "direction": 34,
-        "speed": 2.1
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 14,
-        "high": 0,
-        "middle": 12,
-        "low": 2,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 82
-      },
-      "dewPoint": {
-        "value": 7
-      },
-      "start": "2026-10-12T01:00:00+02:00",
-      "end": "2026-10-12T02:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.6
-      },
-      "wind": {
-        "direction": 48,
-        "speed": 1.5
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 2,
-        "high": 0,
-        "middle": 0,
-        "low": 2,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 81.6
-      },
-      "dewPoint": {
-        "value": 6.6
-      },
-      "start": "2026-10-12T02:00:00+02:00",
-      "end": "2026-10-12T03:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.2
-      },
-      "wind": {
-        "direction": 45,
-        "speed": 1.5
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 5,
-        "high": 0,
-        "middle": 0,
-        "low": 4,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 82.9
-      },
-      "dewPoint": {
-        "value": 6.4
-      },
-      "start": "2026-10-12T03:00:00+02:00",
-      "end": "2026-10-12T04:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "fair_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.9
-      },
-      "wind": {
-        "direction": 37,
-        "speed": 1.5
-      },
-      "feelsLike": {
-        "value": 8
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 7,
-        "high": 0,
-        "middle": 0,
-        "low": 7,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 84
-      },
-      "dewPoint": {
-        "value": 6.3
-      },
-      "start": "2026-10-12T04:00:00+02:00",
-      "end": "2026-10-12T05:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "fair_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.6
-      },
-      "wind": {
-        "direction": 33,
-        "speed": 1.6
-      },
-      "feelsLike": {
-        "value": 8
-      },
-      "pressure": {
-        "value": 1018
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 10,
-        "high": 0,
-        "middle": 0,
-        "low": 10,
-        "fog": 2
-      },
-      "humidity": {
-        "value": 84.6
-      },
-      "dewPoint": {
-        "value": 6.1
-      },
-      "start": "2026-10-12T05:00:00+02:00",
-      "end": "2026-10-12T06:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "fair_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.5
-      },
-      "wind": {
-        "direction": 39,
-        "speed": 1.5
-      },
-      "feelsLike": {
-        "value": 8
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 12,
-        "high": 0,
-        "middle": 0,
-        "low": 12,
-        "fog": 3
-      },
-      "humidity": {
-        "value": 84.5
-      },
-      "dewPoint": {
-        "value": 6
-      },
-      "start": "2026-10-12T06:00:00+02:00",
-      "end": "2026-10-12T07:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "fair_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.2
-      },
-      "wind": {
-        "direction": 35,
-        "speed": 1.4
-      },
-      "feelsLike": {
-        "value": 8
-      },
-      "pressure": {
-        "value": 1019
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 13,
-        "high": 0,
-        "middle": 0,
-        "low": 13,
-        "fog": 4
-      },
-      "humidity": {
-        "value": 85.2
-      },
-      "dewPoint": {
-        "value": 5.8
-      },
-      "start": "2026-10-12T07:00:00+02:00",
-      "end": "2026-10-12T08:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "fair_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8
-      },
-      "wind": {
-        "direction": 43,
-        "speed": 1.4
-      },
-      "feelsLike": {
-        "value": 7
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 12,
-        "high": 0,
-        "middle": 0,
-        "low": 12,
-        "fog": 5
-      },
-      "humidity": {
-        "value": 85.6
-      },
-      "dewPoint": {
-        "value": 5.7
-      },
-      "start": "2026-10-12T08:00:00+02:00",
-      "end": "2026-10-12T09:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.6
-      },
-      "wind": {
-        "direction": 26,
-        "speed": 1.6
-      },
-      "feelsLike": {
-        "value": 9
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 0.4
-      },
-      "cloudCover": {
-        "value": 22,
-        "high": 10,
-        "middle": 0,
-        "low": 13,
-        "fog": 5
-      },
-      "humidity": {
-        "value": 86.5
-      },
-      "dewPoint": {
-        "value": 7.4
-      },
-      "start": "2026-10-12T09:00:00+02:00",
-      "end": "2026-10-12T10:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 11.2
-      },
-      "wind": {
-        "direction": 39,
-        "speed": 2.3
-      },
-      "feelsLike": {
-        "value": 10
-      },
-      "pressure": {
-        "value": 1021
-      },
-      "uvIndex": {
-        "value": 1.1
-      },
-      "cloudCover": {
-        "value": 24,
-        "high": 15,
-        "middle": 0,
-        "low": 11,
-        "fog": 4
-      },
-      "humidity": {
-        "value": 82
-      },
-      "dewPoint": {
-        "value": 8.2
-      },
-      "start": "2026-10-12T10:00:00+02:00",
-      "end": "2026-10-12T11:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 12.5
-      },
-      "wind": {
-        "direction": 40,
-        "speed": 2.7
-      },
-      "feelsLike": {
-        "value": 12
-      },
-      "pressure": {
-        "value": 1021
-      },
-      "uvIndex": {
-        "value": 2
-      },
-      "cloudCover": {
-        "value": 11,
-        "high": 4,
-        "middle": 0,
-        "low": 7,
-        "fog": 2
-      },
-      "humidity": {
-        "value": 75.9
-      },
-      "dewPoint": {
-        "value": 8.4
-      },
-      "start": "2026-10-12T11:00:00+02:00",
-      "end": "2026-10-12T12:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 13.6
-      },
-      "wind": {
-        "direction": 38,
-        "speed": 2.3
-      },
-      "feelsLike": {
-        "value": 13
-      },
-      "pressure": {
-        "value": 1021
-      },
-      "uvIndex": {
-        "value": 3
-      },
-      "cloudCover": {
-        "value": 6,
-        "high": 2,
-        "middle": 0,
-        "low": 5,
-        "fog": 2
-      },
-      "humidity": {
-        "value": 72.4
-      },
-      "dewPoint": {
-        "value": 8.7
-      },
-      "start": "2026-10-12T12:00:00+02:00",
-      "end": "2026-10-12T13:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 14.7
-      },
-      "wind": {
-        "direction": 52,
-        "speed": 2.2
-      },
-      "feelsLike": {
-        "value": 15
-      },
-      "pressure": {
-        "value": 1021
-      },
-      "uvIndex": {
-        "value": 3.5
-      },
-      "cloudCover": {
-        "value": 7,
-        "high": 5,
-        "middle": 0,
-        "low": 2,
-        "fog": 2
-      },
-      "humidity": {
-        "value": 69.2
-      },
-      "dewPoint": {
-        "value": 9.1
-      },
-      "start": "2026-10-12T13:00:00+02:00",
-      "end": "2026-10-12T14:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 15.3
-      },
-      "wind": {
-        "direction": 59,
-        "speed": 2.3
-      },
-      "feelsLike": {
-        "value": 15.3
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 3.4
-      },
-      "cloudCover": {
-        "value": 15,
-        "high": 13,
-        "middle": 0,
-        "low": 2,
-        "fog": 1
-      },
-      "humidity": {
-        "value": 68.5
-      },
-      "dewPoint": {
-        "value": 9.6
-      },
-      "start": "2026-10-12T14:00:00+02:00",
-      "end": "2026-10-12T15:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 15.7
-      },
-      "wind": {
-        "direction": 55,
-        "speed": 2.4
-      },
-      "feelsLike": {
-        "value": 15.7
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 2.6
-      },
-      "cloudCover": {
-        "value": 13,
-        "high": 13,
-        "middle": 0,
-        "low": 1,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 68
-      },
-      "dewPoint": {
-        "value": 9.8
-      },
-      "start": "2026-10-12T15:00:00+02:00",
-      "end": "2026-10-12T16:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 15.9
-      },
-      "wind": {
-        "direction": 58,
-        "speed": 2.2
-      },
-      "feelsLike": {
-        "value": 15.9
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 1.6
-      },
-      "cloudCover": {
-        "value": 10,
-        "high": 10,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 67.5
-      },
-      "dewPoint": {
-        "value": 9.9
-      },
-      "start": "2026-10-12T16:00:00+02:00",
-      "end": "2026-10-12T17:00:00+02:00"
-    },
-    {
-      "symbol": {
         "n": 1,
         "clouds": 0,
         "precip": 0,
@@ -1097,62 +309,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.6
+        "value": 14.1
       },
       "wind": {
-        "direction": 60,
-        "speed": 1.7
+        "direction": 66,
+        "speed": 1.3
       },
       "feelsLike": {
-        "value": 15.6
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "uvIndex": {
-        "value": 0.7
-      },
-      "cloudCover": {
-        "value": 1,
-        "high": 1,
-        "middle": 0,
-        "low": 0,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 68.6
-      },
-      "dewPoint": {
-        "value": 9.9
-      },
-      "start": "2026-10-12T17:00:00+02:00",
-      "end": "2026-10-12T18:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_night"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 14.6
-      },
-      "wind": {
-        "direction": 61,
-        "speed": 1.1
-      },
-      "feelsLike": {
-        "value": 14.6
+        "value": 14.1
       },
       "pressure": {
         "value": 1020
@@ -1161,17 +325,17 @@
         "value": 0.2
       },
       "cloudCover": {
-        "value": 0,
-        "high": 0,
+        "value": 6,
+        "high": 6,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 75.7
+        "value": 75.3
       },
       "dewPoint": {
-        "value": 10.4
+        "value": 9.8
       },
       "start": "2026-10-12T18:00:00+02:00",
       "end": "2026-10-12T19:00:00+02:00"
@@ -1193,14 +357,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 12.6
+        "value": 11.8
       },
       "wind": {
-        "direction": 50,
-        "speed": 1
+        "direction": 73,
+        "speed": 1.2
       },
       "feelsLike": {
-        "value": 12.6
+        "value": 11.8
       },
       "pressure": {
         "value": 1021
@@ -1216,10 +380,10 @@
         "fog": 0
       },
       "humidity": {
-        "value": 81.7
+        "value": 83.5
       },
       "dewPoint": {
-        "value": 9.6
+        "value": 9.1
       },
       "start": "2026-10-12T19:00:00+02:00",
       "end": "2026-10-12T20:00:00+02:00"
@@ -1234,21 +398,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_night",
-        "next6Hours": "clearsky_night",
+        "next6Hours": "fair_night",
         "next12Hours": "clearsky_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.1
+        "value": 11.5
       },
       "wind": {
-        "direction": 218,
-        "speed": 0.8
+        "direction": 14,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 12.1
+        "value": 11.5
       },
       "pressure": {
         "value": 1022
@@ -1257,17 +421,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 0,
-        "high": 0,
+        "value": 1,
+        "high": 1,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 82.4
+        "value": 83.4
       },
       "dewPoint": {
-        "value": 9.2
+        "value": 8.8
       },
       "start": "2026-10-12T20:00:00+02:00",
       "end": "2026-10-12T21:00:00+02:00"
@@ -1289,14 +453,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 11.5
+        "value": 11
       },
       "wind": {
-        "direction": 309,
-        "speed": 0.7
+        "direction": 273,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 11.5
+        "value": 11
       },
       "pressure": {
         "value": 1023
@@ -1305,17 +469,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 1,
+        "value": 0,
         "high": 0,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 83.9
+        "value": 84.8
       },
       "dewPoint": {
-        "value": 8.9
+        "value": 8.5
       },
       "start": "2026-10-12T21:00:00+02:00",
       "end": "2026-10-12T22:00:00+02:00"
@@ -1337,14 +501,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 11.2
+        "value": 10.6
       },
       "wind": {
-        "direction": 309,
-        "speed": 0.7
+        "direction": 269,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 11.2
+        "value": 10.6
       },
       "pressure": {
         "value": 1023
@@ -1360,10 +524,10 @@
         "fog": 0
       },
       "humidity": {
-        "value": 85.4
+        "value": 86.2
       },
       "dewPoint": {
-        "value": 8.8
+        "value": 8.4
       },
       "start": "2026-10-12T22:00:00+02:00",
       "end": "2026-10-12T23:00:00+02:00"
@@ -1385,24 +549,24 @@
         "value": 0
       },
       "temperature": {
-        "value": 10.8
+        "value": 10.1
       },
       "wind": {
-        "direction": 322,
-        "speed": 1
+        "direction": 285,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 10.8
+        "value": 10.1
       },
       "pressure": {
-        "value": 1023
+        "value": 1024
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 0,
-        "high": 0,
+        "value": 3,
+        "high": 3,
         "middle": 0,
         "low": 0,
         "fog": 0
@@ -1411,7 +575,7 @@
         "value": 87.1
       },
       "dewPoint": {
-        "value": 8.7
+        "value": 8
       },
       "start": "2026-10-12T23:00:00+02:00",
       "end": "2026-10-13T00:00:00+02:00"
@@ -1426,21 +590,21 @@
       },
       "symbolCode": {
         "next1Hour": "fair_night",
-        "next6Hours": "fair_night",
+        "next6Hours": "clearsky_night",
         "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 10.3
+        "value": 9.7
       },
       "wind": {
-        "direction": 340,
-        "speed": 0.9
+        "direction": 312,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 10.3
+        "value": 9.7
       },
       "pressure": {
         "value": 1024
@@ -1449,46 +613,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 15,
-        "high": 15,
+        "value": 32,
+        "high": 32,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 88.4
+        "value": 87
       },
       "dewPoint": {
-        "value": 8.5
+        "value": 7.6
       },
       "start": "2026-10-13T00:00:00+02:00",
       "end": "2026-10-13T01:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fair_night",
-        "next12Hours": "clearsky_day"
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 9.9
+        "value": 9.4
       },
       "wind": {
-        "direction": 302,
-        "speed": 0.9
+        "direction": 297,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 9.9
+        "value": 9.4
       },
       "pressure": {
         "value": 1024
@@ -1497,46 +661,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 26,
-        "high": 6,
+        "value": 5,
+        "high": 5,
         "middle": 0,
-        "low": 21,
-        "fog": 21
+        "low": 0,
+        "fog": 0
       },
       "humidity": {
-        "value": 88.4
+        "value": 86.5
       },
       "dewPoint": {
-        "value": 8.1
+        "value": 7.2
       },
       "start": "2026-10-13T01:00:00+02:00",
       "end": "2026-10-13T02:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "fair_night",
-        "next12Hours": "clearsky_day"
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 9.6
+        "value": 9.1
       },
       "wind": {
-        "direction": 288,
-        "speed": 0.6
+        "direction": 284,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 9.6
+        "value": 9.1
       },
       "pressure": {
         "value": 1024
@@ -1545,81 +709,33 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 35,
-        "high": 20,
+        "value": 45,
+        "high": 32,
         "middle": 0,
-        "low": 21,
-        "fog": 21
-      },
-      "humidity": {
-        "value": 86.9
-      },
-      "dewPoint": {
-        "value": 7.5
-      },
-      "start": "2026-10-13T02:00:00+02:00",
-      "end": "2026-10-13T03:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 9.2
-      },
-      "wind": {
-        "direction": 188,
-        "speed": 0.6
-      },
-      "feelsLike": {
-        "value": 9.2
-      },
-      "pressure": {
-        "value": 1025
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 23,
-        "high": 2,
-        "middle": 0,
-        "low": 21,
+        "low": 20,
         "fog": 21
       },
       "humidity": {
         "value": 85.4
       },
       "dewPoint": {
-        "value": 6.8
+        "value": 6.7
       },
-      "start": "2026-10-13T03:00:00+02:00",
-      "end": "2026-10-13T04:00:00+02:00"
+      "start": "2026-10-13T02:00:00+02:00",
+      "end": "2026-10-13T03:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_night",
+        "next1Hour": "clearsky_night",
         "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
@@ -1628,8 +744,8 @@
         "value": 9
       },
       "wind": {
-        "direction": 266,
-        "speed": 0.5
+        "direction": 227,
+        "speed": 0.4
       },
       "feelsLike": {
         "value": 9
@@ -1641,31 +757,79 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 22,
+        "value": 9,
         "high": 0,
         "middle": 1,
-        "low": 21,
-        "fog": 20
+        "low": 9,
+        "fog": 1
       },
       "humidity": {
-        "value": 84.3
+        "value": 84.6
       },
       "dewPoint": {
-        "value": 6.4
+        "value": 6.5
+      },
+      "start": "2026-10-13T03:00:00+02:00",
+      "end": "2026-10-13T04:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.7
+      },
+      "wind": {
+        "direction": 243,
+        "speed": 0.4
+      },
+      "feelsLike": {
+        "value": 8.7
+      },
+      "pressure": {
+        "value": 1025
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 4,
+        "high": 0,
+        "middle": 0,
+        "low": 4,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.2
+      },
+      "dewPoint": {
+        "value": 5.9
       },
       "start": "2026-10-13T04:00:00+02:00",
       "end": "2026-10-13T05:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_night",
+        "next1Hour": "clearsky_night",
         "next6Hours": "clearsky_day",
         "next12Hours": "fair_day"
       },
@@ -1673,14 +837,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.9
+        "value": 8.6
       },
       "wind": {
-        "direction": 249,
-        "speed": 0.4
+        "direction": 222,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 8.9
+        "value": 8.6
       },
       "pressure": {
         "value": 1025
@@ -1689,17 +853,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 21,
-        "high": 0,
-        "middle": 0,
-        "low": 21,
+        "value": 8,
+        "high": 5,
+        "middle": 1,
+        "low": 2,
         "fog": 0
       },
       "humidity": {
-        "value": 82.9
+        "value": 81.5
       },
       "dewPoint": {
-        "value": 6.1
+        "value": 5.5
       },
       "start": "2026-10-13T05:00:00+02:00",
       "end": "2026-10-13T06:00:00+02:00"
@@ -1721,33 +885,33 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.8
+        "value": 8.3
       },
       "wind": {
-        "direction": 172,
+        "direction": 199,
         "speed": 0.6
       },
       "feelsLike": {
-        "value": 8.8
+        "value": 8.3
       },
       "pressure": {
-        "value": 1025
+        "value": 1026
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 8,
-        "high": 0,
-        "middle": 3,
-        "low": 5,
+        "value": 5,
+        "high": 4,
+        "middle": 0,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 82.2
+        "value": 81
       },
       "dewPoint": {
-        "value": 5.9
+        "value": 5.2
       },
       "start": "2026-10-13T06:00:00+02:00",
       "end": "2026-10-13T07:00:00+02:00"
@@ -1762,21 +926,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_night",
-        "next6Hours": "clearsky_day",
+        "next6Hours": "fair_day",
         "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.7
+        "value": 8.1
       },
       "wind": {
-        "direction": 201,
+        "direction": 220,
         "speed": 0.4
       },
       "feelsLike": {
-        "value": 8.7
+        "value": 8.1
       },
       "pressure": {
         "value": 1026
@@ -1785,17 +949,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 3,
+        "value": 1,
         "high": 0,
-        "middle": 1,
-        "low": 2,
+        "middle": 0,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 81
+        "value": 80
       },
       "dewPoint": {
-        "value": 5.6
+        "value": 4.8
       },
       "start": "2026-10-13T07:00:00+02:00",
       "end": "2026-10-13T08:00:00+02:00"
@@ -1810,21 +974,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
+        "next6Hours": "fair_day",
         "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.5
+        "value": 8.1
       },
       "wind": {
-        "direction": 206,
+        "direction": 205,
         "speed": 0.4
       },
       "feelsLike": {
-        "value": 8.5
+        "value": 8.1
       },
       "pressure": {
         "value": 1026
@@ -1833,17 +997,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 2,
+        "value": 0,
         "high": 0,
-        "middle": 1,
-        "low": 2,
+        "middle": 0,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 80.2
+        "value": 79.4
       },
       "dewPoint": {
-        "value": 5.2
+        "value": 4.7
       },
       "start": "2026-10-13T08:00:00+02:00",
       "end": "2026-10-13T09:00:00+02:00"
@@ -1858,21 +1022,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "clearsky_day",
+        "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 10.2
+        "value": 9.7
       },
       "wind": {
-        "direction": 217,
-        "speed": 0.8
+        "direction": 247,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 10.2
+        "value": 9.7
       },
       "pressure": {
         "value": 1027
@@ -1881,17 +1045,17 @@
         "value": 0.4
       },
       "cloudCover": {
-        "value": 1,
+        "value": 0,
         "high": 0,
-        "middle": 1,
-        "low": 1,
+        "middle": 0,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 80.4
+        "value": 79.5
       },
       "dewPoint": {
-        "value": 6.9
+        "value": 6.3
       },
       "start": "2026-10-13T09:00:00+02:00",
       "end": "2026-10-13T10:00:00+02:00"
@@ -1906,21 +1070,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "fair_day",
+        "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12
+        "value": 11.7
       },
       "wind": {
-        "direction": 258,
-        "speed": 0.8
+        "direction": 279,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 12
+        "value": 11.7
       },
       "pressure": {
         "value": 1027
@@ -1936,10 +1100,10 @@
         "fog": 0
       },
       "humidity": {
-        "value": 78.1
+        "value": 76.4
       },
       "dewPoint": {
-        "value": 8.3
+        "value": 7.7
       },
       "start": "2026-10-13T10:00:00+02:00",
       "end": "2026-10-13T11:00:00+02:00"
@@ -1954,21 +1118,21 @@
       },
       "symbolCode": {
         "next1Hour": "clearsky_day",
-        "next6Hours": "fair_day",
+        "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.8
+        "value": 13.7
       },
       "wind": {
-        "direction": 343,
+        "direction": 291,
         "speed": 0.7
       },
       "feelsLike": {
-        "value": 13.8
+        "value": 13.7
       },
       "pressure": {
         "value": 1027
@@ -1977,31 +1141,31 @@
         "value": 2.2
       },
       "cloudCover": {
-        "value": 0,
+        "value": 10,
         "high": 0,
-        "middle": 0,
+        "middle": 10,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 75.8
+        "value": 74.1
       },
       "dewPoint": {
-        "value": 9.6
+        "value": 9.2
       },
       "start": "2026-10-13T11:00:00+02:00",
       "end": "2026-10-13T12:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 1,
-        "clouds": 0,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "clearsky_day",
+        "next1Hour": "partlycloudy_day",
         "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
@@ -2009,25 +1173,25 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.5
+        "value": 15.3
       },
       "wind": {
-        "direction": 119,
-        "speed": 1
+        "direction": 163,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 15.5
+        "value": 15.3
       },
       "pressure": {
         "value": 1027
       },
       "uvIndex": {
-        "value": 3.2
+        "value": 3.3
       },
       "cloudCover": {
-        "value": 1,
+        "value": 56,
         "high": 0,
-        "middle": 1,
+        "middle": 56,
         "low": 0,
         "fog": 0
       },
@@ -2035,21 +1199,21 @@
         "value": 70.1
       },
       "dewPoint": {
-        "value": 10.1
+        "value": 9.9
       },
       "start": "2026-10-13T12:00:00+02:00",
       "end": "2026-10-13T13:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 1,
-        "clouds": 0,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "clearsky_day",
+        "next1Hour": "partlycloudy_day",
         "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
@@ -2057,47 +1221,47 @@
         "value": 0
       },
       "temperature": {
-        "value": 17.1
+        "value": 16.6
       },
       "wind": {
-        "direction": 149,
+        "direction": 157,
         "speed": 1.1
       },
       "feelsLike": {
-        "value": 17.1
+        "value": 16.6
       },
       "pressure": {
-        "value": 1026
+        "value": 1027
       },
       "uvIndex": {
         "value": 3.8
       },
       "cloudCover": {
-        "value": 9,
+        "value": 75,
         "high": 0,
-        "middle": 9,
-        "low": 0,
+        "middle": 75,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 62.6
+        "value": 65.6
       },
       "dewPoint": {
-        "value": 9.9
+        "value": 10.2
       },
       "start": "2026-10-13T13:00:00+02:00",
       "end": "2026-10-13T14:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_day",
+        "next1Hour": "partlycloudy_day",
         "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
@@ -2105,14 +1269,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 18.4
+        "value": 17.9
       },
       "wind": {
-        "direction": 153,
-        "speed": 1.5
+        "direction": 159,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 18.4
+        "value": 17.9
       },
       "pressure": {
         "value": 1026
@@ -2121,17 +1285,17 @@
         "value": 3.6
       },
       "cloudCover": {
-        "value": 20,
-        "high": 1,
-        "middle": 19,
-        "low": 0,
+        "value": 69,
+        "high": 0,
+        "middle": 69,
+        "low": 2,
         "fog": 0
       },
       "humidity": {
-        "value": 57.7
+        "value": 60.3
       },
       "dewPoint": {
-        "value": 9.9
+        "value": 10.1
       },
       "start": "2026-10-13T14:00:00+02:00",
       "end": "2026-10-13T15:00:00+02:00"
@@ -2146,21 +1310,21 @@
       },
       "symbolCode": {
         "next1Hour": "fair_day",
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "cloudy"
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 19.2
+        "value": 18.8
       },
       "wind": {
-        "direction": 155,
-        "speed": 1.6
+        "direction": 151,
+        "speed": 1.4
       },
       "feelsLike": {
-        "value": 19.2
+        "value": 18.8
       },
       "pressure": {
         "value": 1026
@@ -2169,65 +1333,65 @@
         "value": 2.8
       },
       "cloudCover": {
-        "value": 27,
-        "high": 16,
-        "middle": 13,
-        "low": 0,
+        "value": 33,
+        "high": 2,
+        "middle": 30,
+        "low": 9,
         "fog": 0
       },
       "humidity": {
-        "value": 53.8
+        "value": 56.6
       },
       "dewPoint": {
-        "value": 9.6
+        "value": 10
       },
       "start": "2026-10-13T15:00:00+02:00",
       "end": "2026-10-13T16:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_day",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next1Hour": "fair_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 19.5
+        "value": 19.2
       },
       "wind": {
-        "direction": 150,
+        "direction": 141,
         "speed": 1.3
       },
       "feelsLike": {
-        "value": 19.5
+        "value": 19.2
       },
       "pressure": {
         "value": 1026
       },
       "uvIndex": {
-        "value": 1.7
+        "value": 1.6
       },
       "cloudCover": {
-        "value": 63,
-        "high": 56,
-        "middle": 17,
-        "low": 3,
+        "value": 35,
+        "high": 10,
+        "middle": 23,
+        "low": 14,
         "fog": 0
       },
       "humidity": {
-        "value": 52.8
+        "value": 55.3
       },
       "dewPoint": {
-        "value": 9.6
+        "value": 10.1
       },
       "start": "2026-10-13T16:00:00+02:00",
       "end": "2026-10-13T17:00:00+02:00"
@@ -2242,21 +1406,21 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_day",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next6Hours": "fair_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 19.1
+        "value": 18.9
       },
       "wind": {
-        "direction": 138,
+        "direction": 129,
         "speed": 1
       },
       "feelsLike": {
-        "value": 19.1
+        "value": 18.9
       },
       "pressure": {
         "value": 1026
@@ -2265,17 +1429,17 @@
         "value": 0.7
       },
       "cloudCover": {
-        "value": 83,
-        "high": 66,
-        "middle": 48,
-        "low": 20,
+        "value": 53,
+        "high": 11,
+        "middle": 36,
+        "low": 34,
         "fog": 0
       },
       "humidity": {
-        "value": 55.3
+        "value": 57.3
       },
       "dewPoint": {
-        "value": 10
+        "value": 10.3
       },
       "start": "2026-10-13T17:00:00+02:00",
       "end": "2026-10-13T18:00:00+02:00"
@@ -2290,37 +1454,37 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_day",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 17.7
+        "value": 17.8
       },
       "wind": {
-        "direction": 148,
-        "speed": 0.6
+        "direction": 111,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 17.7
+        "value": 17.8
       },
       "pressure": {
         "value": 1026
       },
       "uvIndex": {
-        "value": 0.2
+        "value": 0.1
       },
       "cloudCover": {
-        "value": 71,
-        "high": 66,
-        "middle": 13,
-        "low": 8,
+        "value": 62,
+        "high": 46,
+        "middle": 14,
+        "low": 18,
         "fog": 0
       },
       "humidity": {
-        "value": 71.8
+        "value": 71.3
       },
       "dewPoint": {
         "value": 12.6
@@ -2338,8 +1502,8 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
@@ -2348,7 +1512,7 @@
         "value": 15.8
       },
       "wind": {
-        "direction": 198,
+        "direction": 112,
         "speed": 0.5
       },
       "feelsLike": {
@@ -2361,45 +1525,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 74,
-        "high": 68,
-        "middle": 15,
-        "low": 6,
+        "value": 39,
+        "high": 33,
+        "middle": 5,
+        "low": 8,
         "fog": 0
       },
       "humidity": {
-        "value": 74.9
+        "value": 73
       },
       "dewPoint": {
-        "value": 11.4
+        "value": 11
       },
       "start": "2026-10-13T19:00:00+02:00",
       "end": "2026-10-13T20:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14.9
+        "value": 14.7
       },
       "wind": {
-        "direction": 259,
-        "speed": 0.7
+        "direction": 188,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 14.9
+        "value": 14.7
       },
       "pressure": {
         "value": 1028
@@ -2408,45 +1573,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 88,
-        "high": 42,
-        "middle": 70,
-        "low": 16,
+        "value": 23,
+        "high": 17,
+        "middle": 3,
+        "low": 6,
         "fog": 0
       },
       "humidity": {
-        "value": 78
+        "value": 75.3
       },
       "dewPoint": {
-        "value": 11.1
+        "value": 10.4
       },
       "start": "2026-10-13T20:00:00+02:00",
       "end": "2026-10-13T21:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 15.1
+        "value": 13.8
       },
       "wind": {
-        "direction": 264,
-        "speed": 0.7
+        "direction": 288,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 15.1
+        "value": 13.8
       },
       "pressure": {
         "value": 1028
@@ -2455,93 +1621,46 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 100,
-        "high": 4,
-        "middle": 100,
-        "low": 25,
+        "value": 6,
+        "high": 0,
+        "middle": 2,
+        "low": 5,
         "fog": 0
       },
       "humidity": {
-        "value": 78.6
+        "value": 76.7
       },
       "dewPoint": {
-        "value": 11.5
+        "value": 9.8
       },
       "start": "2026-10-13T21:00:00+02:00",
       "end": "2026-10-13T22:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 46,
-        "clouds": 3,
-        "precipPhase": "Rain",
-        "precip": 1,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "lightrain",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
-      },
-      "precipitation": {
-        "value": 0.1
-      },
-      "temperature": {
-        "value": 15.2
-      },
-      "wind": {
-        "direction": 267,
-        "speed": 0.7
-      },
-      "feelsLike": {
-        "value": 15.2
-      },
-      "pressure": {
-        "value": 1028
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 2,
-        "middle": 100,
-        "low": 42,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 78.9
-      },
-      "dewPoint": {
-        "value": 11.6
-      },
-      "start": "2026-10-13T22:00:00+02:00",
-      "end": "2026-10-13T23:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 15
+        "value": 13.1
       },
       "wind": {
-        "direction": 275,
+        "direction": 298,
         "speed": 0.7
       },
       "feelsLike": {
-        "value": 15
+        "value": 13.1
       },
       "pressure": {
         "value": 1029
@@ -2550,17 +1669,65 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 100,
-        "high": 22,
-        "middle": 100,
-        "low": 35,
+        "value": 16,
+        "high": 1,
+        "middle": 4,
+        "low": 13,
         "fog": 0
       },
       "humidity": {
-        "value": 79.7
+        "value": 78.1
       },
       "dewPoint": {
-        "value": 11.6
+        "value": 9.4
+      },
+      "start": "2026-10-13T22:00:00+02:00",
+      "end": "2026-10-13T23:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night",
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 12.8
+      },
+      "wind": {
+        "direction": 260,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 12.8
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 57,
+        "high": 48,
+        "middle": 10,
+        "low": 16,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 78.9
+      },
+      "dewPoint": {
+        "value": 9.2
       },
       "start": "2026-10-13T23:00:00+02:00",
       "end": "2026-10-14T00:00:00+02:00"
@@ -2574,40 +1741,40 @@
       },
       "symbolCode": {
         "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_night",
+        "next6Hours": "cloudy",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14.4
+        "value": 12.5
       },
       "wind": {
-        "direction": 253,
-        "speed": 0.7
+        "direction": 281,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 14.4
+        "value": 12.5
       },
       "pressure": {
-        "value": 1029
+        "value": 1030
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 93,
-        "high": 66,
-        "middle": 76,
-        "low": 38,
+        "value": 91,
+        "high": 89,
+        "middle": 6,
+        "low": 14,
         "fog": 0
       },
       "humidity": {
-        "value": 80.1
+        "value": 79.7
       },
       "dewPoint": {
-        "value": 11.1
+        "value": 9.1
       },
       "start": "2026-10-14T00:00:00+02:00",
       "end": "2026-10-14T01:00:00+02:00"
@@ -2622,40 +1789,40 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_night",
+        "next6Hours": "cloudy",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14.2
+        "value": 12.2
       },
       "wind": {
-        "direction": 248,
-        "speed": 0.7
+        "direction": 299,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 14.2
+        "value": 12.2
       },
       "pressure": {
-        "value": 1029
+        "value": 1030
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 94,
-        "high": 92,
-        "middle": 9,
-        "low": 10,
+        "value": 98,
+        "high": 98,
+        "middle": 5,
+        "low": 12,
         "fog": 0
       },
       "humidity": {
-        "value": 80.4
+        "value": 81.2
       },
       "dewPoint": {
-        "value": 10.9
+        "value": 9.1
       },
       "start": "2026-10-14T01:00:00+02:00",
       "end": "2026-10-14T02:00:00+02:00"
@@ -2670,21 +1837,21 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "cloudy",
+        "next6Hours": "partlycloudy_night",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.9
+        "value": 12
       },
       "wind": {
-        "direction": 307,
-        "speed": 0.7
+        "direction": 256,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 13.9
+        "value": 12
       },
       "pressure": {
         "value": 1030
@@ -2693,17 +1860,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 97,
-        "high": 95,
-        "middle": 8,
-        "low": 9,
+        "value": 90,
+        "high": 89,
+        "middle": 2,
+        "low": 6,
         "fog": 0
       },
       "humidity": {
-        "value": 80.9
+        "value": 82.6
       },
       "dewPoint": {
-        "value": 10.7
+        "value": 9.1
       },
       "start": "2026-10-14T02:00:00+02:00",
       "end": "2026-10-14T03:00:00+02:00"
@@ -2718,39 +1885,40 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "cloudy"
+        "next6Hours": "fog",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.6
+        "value": 11.6
       },
       "wind": {
-        "direction": 37,
+        "direction": 244,
         "speed": 0.8
       },
       "feelsLike": {
-        "value": 13.6
+        "value": 11.6
       },
       "pressure": {
-        "value": 1030
+        "value": 1029
       },
       "uvIndex": {
         "value": 0
       },
       "cloudCover": {
-        "value": 99,
-        "high": 99,
-        "middle": 6,
-        "low": 12,
+        "value": 66,
+        "high": 65,
+        "middle": 2,
+        "low": 3,
         "fog": 0
       },
       "humidity": {
-        "value": 81.8
+        "value": 83.5
       },
       "dewPoint": {
-        "value": 10.6
+        "value": 8.9
       },
       "start": "2026-10-14T03:00:00+02:00",
       "end": "2026-10-14T04:00:00+02:00"
@@ -2765,20 +1933,21 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "cloudy"
+        "next6Hours": "fog",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.4
+        "value": 11.1
       },
       "wind": {
-        "direction": 56,
-        "speed": 1
+        "direction": 313,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 13.4
+        "value": 11.1
       },
       "pressure": {
         "value": 1029
@@ -2787,17 +1956,17 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 88,
-        "high": 85,
+        "value": 86,
+        "high": 84,
         "middle": 2,
-        "low": 11,
-        "fog": 0
+        "low": 8,
+        "fog": 2
       },
       "humidity": {
-        "value": 81
+        "value": 86.5
       },
       "dewPoint": {
-        "value": 10.2
+        "value": 8.9
       },
       "start": "2026-10-14T04:00:00+02:00",
       "end": "2026-10-14T05:00:00+02:00"
@@ -2812,20 +1981,21 @@
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_day"
+        "next6Hours": "fog",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.7
+        "value": 10.5
       },
       "wind": {
-        "direction": 288,
+        "direction": 104,
         "speed": 0.9
       },
       "feelsLike": {
-        "value": 12.7
+        "value": 10.5
       },
       "pressure": {
         "value": 1029
@@ -2834,45 +2004,45 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 68,
-        "high": 63,
+        "value": 99,
+        "high": 99,
         "middle": 1,
         "low": 13,
-        "fog": 0
+        "fog": 7
       },
       "humidity": {
-        "value": 83.3
+        "value": 88.5
       },
       "dewPoint": {
-        "value": 10
+        "value": 8.7
       },
       "start": "2026-10-14T05:00:00+02:00",
       "end": "2026-10-14T06:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 15,
+        "clouds": 3,
         "precip": 0,
-        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_day"
+        "next1Hour": "fog",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.4
+        "value": 10.6
       },
       "wind": {
-        "direction": 307,
-        "speed": 0.9
+        "direction": 309,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 12.4
+        "value": 10.6
       },
       "pressure": {
         "value": 1029
@@ -2881,76 +2051,30 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 91,
-        "high": 90,
-        "middle": 1,
-        "low": 13,
-        "fog": 0
+        "value": 98,
+        "high": 96,
+        "middle": 2,
+        "low": 38,
+        "fog": 34
       },
       "humidity": {
-        "value": 84.3
+        "value": 89
       },
       "dewPoint": {
-        "value": 9.8
+        "value": 8.9
       },
       "start": "2026-10-14T06:00:00+02:00",
       "end": "2026-10-14T07:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 4,
+        "n": 15,
         "clouds": 3,
         "precip": 0,
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 12.1
-      },
-      "wind": {
-        "direction": 97,
-        "speed": 0.9
-      },
-      "feelsLike": {
-        "value": 12.1
-      },
-      "pressure": {
-        "value": 1030
-      },
-      "uvIndex": {
-        "value": 0
-      },
-      "cloudCover": {
-        "value": 98,
-        "high": 98,
-        "middle": 0,
-        "low": 17,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 84.9
-      },
-      "dewPoint": {
-        "value": 9.7
-      },
-      "start": "2026-10-14T07:00:00+02:00",
-      "end": "2026-10-14T08:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "cloudy",
+        "next1Hour": "fog",
         "next6Hours": "partlycloudy_day",
         "next12Hours": "fair_day"
       },
@@ -2958,14 +2082,14 @@
         "value": 0
       },
       "temperature": {
-        "value": 11.9
+        "value": 10.2
       },
       "wind": {
-        "direction": 357,
-        "speed": 0.9
+        "direction": 340,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 11.9
+        "value": 10.2
       },
       "pressure": {
         "value": 1030
@@ -2974,43 +2098,92 @@
         "value": 0
       },
       "cloudCover": {
-        "value": 98,
-        "high": 98,
-        "middle": 0,
-        "low": 20,
-        "fog": 0
+        "value": 90,
+        "high": 77,
+        "middle": 2,
+        "low": 56,
+        "fog": 45
       },
       "humidity": {
-        "value": 85.3
+        "value": 90.5
       },
       "dewPoint": {
-        "value": 9.5
+        "value": 8.7
+      },
+      "start": "2026-10-14T07:00:00+02:00",
+      "end": "2026-10-14T08:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 15,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 9.8
+      },
+      "wind": {
+        "direction": 286,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 9.8
+      },
+      "pressure": {
+        "value": 1031
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 66,
+        "high": 9,
+        "middle": 0,
+        "low": 62,
+        "fog": 45
+      },
+      "humidity": {
+        "value": 92.7
+      },
+      "dewPoint": {
+        "value": 8.7
       },
       "start": "2026-10-14T08:00:00+02:00",
       "end": "2026-10-14T09:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 4,
+        "n": 15,
         "clouds": 3,
         "precip": 0,
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy"
+        "next1Hour": "fog",
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.2
+        "value": 11.1
       },
       "wind": {
-        "direction": 301,
-        "speed": 1
+        "direction": 268,
+        "speed": 1.7
       },
       "feelsLike": {
-        "value": 13.2
+        "value": 11
       },
       "pressure": {
         "value": 1031
@@ -3019,43 +2192,46 @@
         "value": 0.3
       },
       "cloudCover": {
-        "value": 99,
-        "high": 99,
+        "value": 62,
+        "high": 0,
         "middle": 0,
-        "low": 23,
-        "fog": 0
+        "low": 62,
+        "fog": 42
       },
       "humidity": {
-        "value": 84.4
+        "value": 91.9
       },
       "dewPoint": {
-        "value": 10.7
+        "value": 9.9
       },
       "start": "2026-10-14T09:00:00+02:00",
       "end": "2026-10-14T10:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "cloudy"
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14.7
+        "value": 13.9
       },
       "wind": {
-        "direction": 4,
+        "direction": 297,
         "speed": 1.5
       },
       "feelsLike": {
-        "value": 15
+        "value": 14
       },
       "pressure": {
         "value": 1031
@@ -3064,44 +2240,46 @@
         "value": 1
       },
       "cloudCover": {
-        "value": 93,
-        "high": 90,
+        "value": 48,
+        "high": 0,
         "middle": 0,
-        "low": 31,
-        "fog": 0
+        "low": 48,
+        "fog": 2
       },
       "humidity": {
-        "value": 88.5
+        "value": 90.8
       },
       "dewPoint": {
-        "value": 12.9
+        "value": 12.5
       },
       "start": "2026-10-14T10:00:00+02:00",
       "end": "2026-10-14T11:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "fair_day"
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 16.3
+        "value": 16.2
       },
       "wind": {
-        "direction": 35,
-        "speed": 1.4
+        "direction": 57,
+        "speed": 1.5
       },
       "feelsLike": {
-        "value": 16.3
+        "value": 16.2
       },
       "pressure": {
         "value": 1031
@@ -3110,17 +2288,17 @@
         "value": 2
       },
       "cloudCover": {
-        "value": 36,
-        "high": 15,
+        "value": 45,
+        "high": 0,
         "middle": 0,
-        "low": 24,
-        "fog": 0
+        "low": 45,
+        "fog": 2
       },
       "humidity": {
-        "value": 89.5
+        "value": 88.9
       },
       "dewPoint": {
-        "value": 14.7
+        "value": 14.5
       },
       "start": "2026-10-14T11:00:00+02:00",
       "end": "2026-10-14T12:00:00+02:00"
@@ -3134,20 +2312,22 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_day"
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 18.1
+        "value": 17.5
       },
       "wind": {
-        "direction": 33,
-        "speed": 2.8
+        "direction": 50,
+        "speed": 2.4
       },
       "feelsLike": {
-        "value": 18.1
+        "value": 17.5
       },
       "pressure": {
         "value": 1031
@@ -3156,117 +2336,20 @@
         "value": 2.9
       },
       "cloudCover": {
-        "value": 63,
+        "value": 79,
         "high": 0,
         "middle": 0,
-        "low": 63,
-        "fog": 1
-      },
-      "humidity": {
-        "value": 80.6
-      },
-      "dewPoint": {
-        "value": 14.8
-      },
-      "start": "2026-10-14T12:00:00+02:00",
-      "end": "2026-10-14T13:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 3,
-        "clouds": 2,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 18.7
-      },
-      "wind": {
-        "direction": 51,
-        "speed": 2.5
-      },
-      "feelsLike": {
-        "value": 18.7
-      },
-      "pressure": {
-        "value": 1031
-      },
-      "uvIndex": {
-        "value": 3.3
-      },
-      "cloudCover": {
-        "value": 38,
-        "high": 0,
-        "middle": 0,
-        "low": 38,
+        "low": 79,
         "fog": 2
       },
       "humidity": {
-        "value": 78.1
+        "value": 82.1
       },
       "dewPoint": {
-        "value": 14.9
+        "value": 14.5
       },
-      "start": "2026-10-14T13:00:00+02:00",
-      "end": "2026-10-14T14:00:00+02:00"
-    }
-  ],
-  "longIntervals": [
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
-        "var": "Moon",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next1Hour": "fair_night",
-        "next6Hours": "clearsky_night",
-        "next12Hours": "clearsky_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 10.3,
-        "min": 8.5,
-        "max": 10
-      },
-      "wind": {
-        "direction": 25,
-        "speed": 2
-      },
-      "feelsLike": {
-        "value": 10
-      },
-      "pressure": {
-        "value": 1017
-      },
-      "cloudCover": {
-        "value": 29,
-        "high": 0,
-        "middle": 28,
-        "low": 2,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 82.8
-      },
-      "dewPoint": {
-        "value": 7.5
-      },
-      "start": "2026-10-12T00:00:00+02:00",
-      "end": "2026-10-12T06:00:00+02:00",
-      "nominalStart": "2026-10-12T00:00:00+02:00",
-      "nominalEnd": "2026-10-12T06:00:00+02:00"
+      "start": "2026-10-14T12:00:00+02:00",
+      "end": "2026-10-14T13:00:00+02:00"
     },
     {
       "symbol": {
@@ -3277,45 +2360,44 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "clearsky_night",
-        "next6Hours": "fair_day",
+        "next1Hour": "fair_day",
+        "next6Hours": "clearsky_day",
         "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.5,
-        "min": 8,
-        "max": 13.6
+        "value": 18.7
       },
       "wind": {
-        "direction": 39,
-        "speed": 1.5
+        "direction": 41,
+        "speed": 2.7
       },
       "feelsLike": {
-        "value": 8
+        "value": 18.7
       },
       "pressure": {
-        "value": 1019
+        "value": 1030
+      },
+      "uvIndex": {
+        "value": 3.3
       },
       "cloudCover": {
-        "value": 12,
+        "value": 34,
         "high": 0,
         "middle": 0,
-        "low": 12,
-        "fog": 3
+        "low": 34,
+        "fog": 1
       },
       "humidity": {
-        "value": 84.5
+        "value": 75.8
       },
       "dewPoint": {
-        "value": 6
+        "value": 14.5
       },
-      "start": "2026-10-12T06:00:00+02:00",
-      "end": "2026-10-12T12:00:00+02:00",
-      "nominalStart": "2026-10-12T06:00:00+02:00",
-      "nominalEnd": "2026-10-12T12:00:00+02:00"
+      "start": "2026-10-14T13:00:00+02:00",
+      "end": "2026-10-14T14:00:00+02:00"
     },
     {
       "symbol": {
@@ -3334,38 +2416,836 @@
         "value": 0
       },
       "temperature": {
-        "value": 13.6,
-        "min": 14.6,
-        "max": 15.9
+        "value": 19.4
       },
       "wind": {
-        "direction": 38,
-        "speed": 2.3
+        "direction": 50,
+        "speed": 2
       },
       "feelsLike": {
-        "value": 13
+        "value": 19.4
       },
       "pressure": {
-        "value": 1021
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 3.1
       },
       "cloudCover": {
         "value": 6,
-        "high": 2,
+        "high": 0,
         "middle": 0,
-        "low": 5,
-        "fog": 2
+        "low": 6,
+        "fog": 0
       },
       "humidity": {
-        "value": 72.4
+        "value": 73.1
       },
       "dewPoint": {
-        "value": 8.7
+        "value": 14.6
       },
-      "start": "2026-10-12T12:00:00+02:00",
-      "end": "2026-10-12T18:00:00+02:00",
-      "nominalStart": "2026-10-12T12:00:00+02:00",
-      "nominalEnd": "2026-10-12T18:00:00+02:00"
+      "start": "2026-10-14T14:00:00+02:00",
+      "end": "2026-10-14T15:00:00+02:00"
     },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_day",
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 19.5
+      },
+      "wind": {
+        "direction": 82,
+        "speed": 1.8
+      },
+      "feelsLike": {
+        "value": 19.5
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 2.3
+      },
+      "cloudCover": {
+        "value": 3,
+        "high": 0,
+        "middle": 0,
+        "low": 3,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73
+      },
+      "dewPoint": {
+        "value": 14.7
+      },
+      "start": "2026-10-14T15:00:00+02:00",
+      "end": "2026-10-14T16:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_day",
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 19.6
+      },
+      "wind": {
+        "direction": 83,
+        "speed": 1.5
+      },
+      "feelsLike": {
+        "value": 19.6
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 1.3
+      },
+      "cloudCover": {
+        "value": 6,
+        "high": 0,
+        "middle": 0,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 72.5
+      },
+      "dewPoint": {
+        "value": 14.6
+      },
+      "start": "2026-10-14T16:00:00+02:00",
+      "end": "2026-10-14T17:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 19.3
+      },
+      "wind": {
+        "direction": 72,
+        "speed": 1.6
+      },
+      "feelsLike": {
+        "value": 19.3
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0.6
+      },
+      "cloudCover": {
+        "value": 16,
+        "high": 0,
+        "middle": 0,
+        "low": 16,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 74
+      },
+      "dewPoint": {
+        "value": 14.7
+      },
+      "start": "2026-10-14T17:00:00+02:00",
+      "end": "2026-10-14T18:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_day",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 17.9
+      },
+      "wind": {
+        "direction": 79,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 17.9
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0.1
+      },
+      "cloudCover": {
+        "value": 19,
+        "high": 0,
+        "middle": 0,
+        "low": 19,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.5
+      },
+      "dewPoint": {
+        "value": 15.2
+      },
+      "start": "2026-10-14T18:00:00+02:00",
+      "end": "2026-10-14T19:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 16
+      },
+      "wind": {
+        "direction": 216,
+        "speed": 0.2
+      },
+      "feelsLike": {
+        "value": 16
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 11,
+        "high": 0,
+        "middle": 0,
+        "low": 11,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 89.7
+      },
+      "dewPoint": {
+        "value": 14.4
+      },
+      "start": "2026-10-14T19:00:00+02:00",
+      "end": "2026-10-14T20:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 15
+      },
+      "wind": {
+        "direction": 192,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 15
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 6,
+        "high": 0,
+        "middle": 0,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 91.9
+      },
+      "dewPoint": {
+        "value": 13.8
+      },
+      "start": "2026-10-14T20:00:00+02:00",
+      "end": "2026-10-14T21:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 14.3
+      },
+      "wind": {
+        "direction": 218,
+        "speed": 0.4
+      },
+      "feelsLike": {
+        "value": 14.3
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 2,
+        "high": 0,
+        "middle": 0,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 92.4
+      },
+      "dewPoint": {
+        "value": 13.2
+      },
+      "start": "2026-10-14T21:00:00+02:00",
+      "end": "2026-10-14T22:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 13.8
+      },
+      "wind": {
+        "direction": 241,
+        "speed": 0.4
+      },
+      "feelsLike": {
+        "value": 13.8
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 1,
+        "high": 0,
+        "middle": 0,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 92.1
+      },
+      "dewPoint": {
+        "value": 12.6
+      },
+      "start": "2026-10-14T22:00:00+02:00",
+      "end": "2026-10-14T23:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "clearsky_night",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 13.2
+      },
+      "wind": {
+        "direction": 206,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 13.2
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 3,
+        "high": 0,
+        "middle": 0,
+        "low": 3,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 93.3
+      },
+      "dewPoint": {
+        "value": 12.2
+      },
+      "start": "2026-10-14T23:00:00+02:00",
+      "end": "2026-10-15T00:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 12.7
+      },
+      "wind": {
+        "direction": 229,
+        "speed": 0.3
+      },
+      "feelsLike": {
+        "value": 12.7
+      },
+      "pressure": {
+        "value": 1030
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 23,
+        "high": 0,
+        "middle": 0,
+        "low": 23,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 93.4
+      },
+      "dewPoint": {
+        "value": 11.7
+      },
+      "start": "2026-10-15T00:00:00+02:00",
+      "end": "2026-10-15T01:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "fog"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 12.3
+      },
+      "wind": {
+        "direction": 262,
+        "speed": 0.4
+      },
+      "feelsLike": {
+        "value": 12.3
+      },
+      "pressure": {
+        "value": 1030
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 21,
+        "high": 0,
+        "middle": 0,
+        "low": 21,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 93.5
+      },
+      "dewPoint": {
+        "value": 11.3
+      },
+      "start": "2026-10-15T01:00:00+02:00",
+      "end": "2026-10-15T02:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fair_night",
+        "next6Hours": "fog",
+        "next12Hours": "partlycloudy_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 11.9
+      },
+      "wind": {
+        "direction": 288,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 11.9
+      },
+      "pressure": {
+        "value": 1030
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 23,
+        "high": 0,
+        "middle": 0,
+        "low": 23,
+        "fog": 21
+      },
+      "humidity": {
+        "value": 93.8
+      },
+      "dewPoint": {
+        "value": 11
+      },
+      "start": "2026-10-15T02:00:00+02:00",
+      "end": "2026-10-15T03:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "partlycloudy_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 11.6
+      },
+      "wind": {
+        "direction": 276,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 11.6
+      },
+      "pressure": {
+        "value": 1030
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 39,
+        "high": 0,
+        "middle": 0,
+        "low": 39,
+        "fog": 24
+      },
+      "humidity": {
+        "value": 94.8
+      },
+      "dewPoint": {
+        "value": 10.8
+      },
+      "start": "2026-10-15T03:00:00+02:00",
+      "end": "2026-10-15T04:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 15,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 11.3
+      },
+      "wind": {
+        "direction": 276,
+        "speed": 0.7
+      },
+      "feelsLike": {
+        "value": 11.3
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 51,
+        "high": 1,
+        "middle": 0,
+        "low": 51,
+        "fog": 30
+      },
+      "humidity": {
+        "value": 96.7
+      },
+      "dewPoint": {
+        "value": 10.8
+      },
+      "start": "2026-10-15T04:00:00+02:00",
+      "end": "2026-10-15T05:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 15,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.9
+      },
+      "wind": {
+        "direction": 225,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 10.9
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 89,
+        "high": 1,
+        "middle": 0,
+        "low": 89,
+        "fog": 34
+      },
+      "humidity": {
+        "value": 97.9
+      },
+      "dewPoint": {
+        "value": 10.6
+      },
+      "start": "2026-10-15T05:00:00+02:00",
+      "end": "2026-10-15T06:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 15,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.5
+      },
+      "wind": {
+        "direction": 196,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 10.5
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 98,
+        "high": 0,
+        "middle": 0,
+        "low": 98,
+        "fog": 39
+      },
+      "humidity": {
+        "value": 97.6
+      },
+      "dewPoint": {
+        "value": 10.2
+      },
+      "start": "2026-10-15T06:00:00+02:00",
+      "end": "2026-10-15T07:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 15,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next1Hour": "fog"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.3
+      },
+      "wind": {
+        "direction": 194,
+        "speed": 0.6
+      },
+      "feelsLike": {
+        "value": 10.3
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "uvIndex": {
+        "value": 0
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 0,
+        "middle": 0,
+        "low": 100,
+        "fog": 45
+      },
+      "humidity": {
+        "value": 97.1
+      },
+      "dewPoint": {
+        "value": 9.9
+      },
+      "start": "2026-10-15T07:00:00+02:00",
+      "end": "2026-10-15T08:00:00+02:00"
+    }
+  ],
+  "longIntervals": [
     {
       "symbol": {
         "n": 1,
@@ -3383,32 +3263,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 14.6,
-        "min": 10.3,
-        "max": 12.6
+        "value": 14.1,
+        "min": 9.7,
+        "max": 11.8
       },
       "wind": {
-        "direction": 61,
-        "speed": 1.1
+        "direction": 66,
+        "speed": 1.3
       },
       "feelsLike": {
-        "value": 14.6
+        "value": 14.1
       },
       "pressure": {
         "value": 1020
       },
       "cloudCover": {
-        "value": 0,
-        "high": 0,
+        "value": 6,
+        "high": 6,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 75.7
+        "value": 75.3
       },
       "dewPoint": {
-        "value": 10.4
+        "value": 9.8
       },
       "start": "2026-10-12T18:00:00+02:00",
       "end": "2026-10-13T00:00:00+02:00",
@@ -3417,47 +3297,47 @@
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
         "next1Hour": "fair_night",
-        "next6Hours": "fair_night",
+        "next6Hours": "clearsky_night",
         "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 10.3,
-        "min": 8.8,
-        "max": 9.9
+        "value": 9.7,
+        "min": 8.3,
+        "max": 9.4
       },
       "wind": {
-        "direction": 340,
-        "speed": 0.9
+        "direction": 312,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 10.3
+        "value": 9.7
       },
       "pressure": {
         "value": 1024
       },
       "cloudCover": {
-        "value": 15,
-        "high": 15,
+        "value": 32,
+        "high": 32,
         "middle": 0,
         "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 88.4
+        "value": 87
       },
       "dewPoint": {
-        "value": 8.5
+        "value": 7.6
       },
       "start": "2026-10-13T00:00:00+02:00",
       "end": "2026-10-13T06:00:00+02:00",
@@ -3481,32 +3361,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.8,
-        "min": 8.5,
-        "max": 15.5
+        "value": 8.3,
+        "min": 8.1,
+        "max": 15.3
       },
       "wind": {
-        "direction": 172,
+        "direction": 199,
         "speed": 0.6
       },
       "feelsLike": {
-        "value": 8.8
+        "value": 8.3
       },
       "pressure": {
-        "value": 1025
+        "value": 1026
       },
       "cloudCover": {
-        "value": 8,
-        "high": 0,
-        "middle": 3,
-        "low": 5,
+        "value": 5,
+        "high": 4,
+        "middle": 0,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 82.2
+        "value": 81
       },
       "dewPoint": {
-        "value": 5.9
+        "value": 5.2
       },
       "start": "2026-10-13T06:00:00+02:00",
       "end": "2026-10-13T12:00:00+02:00",
@@ -3522,7 +3402,7 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "clearsky_day",
+        "next1Hour": "partlycloudy_day",
         "next6Hours": "partlycloudy_day",
         "next12Hours": "partlycloudy_day"
       },
@@ -3530,24 +3410,24 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.5,
-        "min": 17.1,
-        "max": 19.5
+        "value": 15.3,
+        "min": 16.6,
+        "max": 19.2
       },
       "wind": {
-        "direction": 119,
-        "speed": 1
+        "direction": 163,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 15.5
+        "value": 15.3
       },
       "pressure": {
         "value": 1027
       },
       "cloudCover": {
-        "value": 1,
+        "value": 56,
         "high": 0,
-        "middle": 1,
+        "middle": 56,
         "low": 0,
         "fog": 0
       },
@@ -3555,7 +3435,7 @@
         "value": 70.1
       },
       "dewPoint": {
-        "value": 10.1
+        "value": 9.9
       },
       "start": "2026-10-13T12:00:00+02:00",
       "end": "2026-10-13T18:00:00+02:00",
@@ -3564,43 +3444,44 @@
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
+        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
         "next1Hour": "partlycloudy_day",
-        "next6Hours": "cloudy",
-        "next12Hours": "cloudy"
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "partlycloudy_night"
       },
       "precipitation": {
-        "value": 0.2
+        "value": 0
       },
       "temperature": {
-        "value": 17.7,
-        "min": 14.4,
+        "value": 17.8,
+        "min": 12.5,
         "max": 15.8
       },
       "wind": {
-        "direction": 148,
-        "speed": 0.6
+        "direction": 111,
+        "speed": 0.7
       },
       "feelsLike": {
-        "value": 17.7
+        "value": 17.8
       },
       "pressure": {
         "value": 1026
       },
       "cloudCover": {
-        "value": 71,
-        "high": 66,
-        "middle": 13,
-        "low": 8,
+        "value": 62,
+        "high": 46,
+        "middle": 14,
+        "low": 18,
         "fog": 0
       },
       "humidity": {
-        "value": 71.8
+        "value": 71.3
       },
       "dewPoint": {
         "value": 12.6
@@ -3612,47 +3493,46 @@
     },
     {
       "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 4,
+        "clouds": 3,
         "precip": 0,
-        "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
         "next1Hour": "cloudy",
-        "next6Hours": "partlycloudy_night",
+        "next6Hours": "cloudy",
         "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 14.4,
-        "min": 12.4,
-        "max": 14.2
+        "value": 12.5,
+        "min": 10.5,
+        "max": 12.2
       },
       "wind": {
-        "direction": 253,
-        "speed": 0.7
+        "direction": 281,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 14.4
+        "value": 12.5
       },
       "pressure": {
-        "value": 1029
+        "value": 1030
       },
       "cloudCover": {
-        "value": 93,
-        "high": 66,
-        "middle": 76,
-        "low": 38,
+        "value": 91,
+        "high": 89,
+        "middle": 6,
+        "low": 14,
         "fog": 0
       },
       "humidity": {
-        "value": 80.1
+        "value": 79.7
       },
       "dewPoint": {
-        "value": 11.1
+        "value": 9.1
       },
       "start": "2026-10-14T00:00:00+02:00",
       "end": "2026-10-14T06:00:00+02:00",
@@ -3668,39 +3548,40 @@
         "sunup": false
       },
       "symbolCode": {
-        "next1Hour": "partlycloudy_night",
-        "next6Hours": "partlycloudy_day"
+        "next1Hour": "fog",
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "partlycloudy_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.4,
-        "min": 11.9,
-        "max": 18.1
+        "value": 10.6,
+        "min": 9.8,
+        "max": 17.5
       },
       "wind": {
-        "direction": 307,
-        "speed": 0.9
+        "direction": 309,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 12.4
+        "value": 10.6
       },
       "pressure": {
         "value": 1029
       },
       "cloudCover": {
-        "value": 91,
-        "high": 90,
-        "middle": 1,
-        "low": 13,
-        "fog": 0
+        "value": 98,
+        "high": 96,
+        "middle": 2,
+        "low": 38,
+        "fog": 34
       },
       "humidity": {
-        "value": 84.3
+        "value": 89
       },
       "dewPoint": {
-        "value": 9.8
+        "value": 8.9
       },
       "start": "2026-10-14T06:00:00+02:00",
       "end": "2026-10-14T12:00:00+02:00",
@@ -3709,81 +3590,80 @@
     },
     {
       "symbol": {
-        "n": 1,
-        "clouds": 0,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "clearsky_day",
-        "next12Hours": "fair_day"
+        "next1Hour": "partlycloudy_day",
+        "next6Hours": "fair_day",
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 18.9,
-        "min": 16.1,
+        "value": 17.5,
+        "min": 17.9,
         "max": 19.6
       },
       "wind": {
-        "direction": 79,
-        "speed": 1.9
+        "direction": 50,
+        "speed": 2.4
       },
       "feelsLike": {
-        "value": 18.9
+        "value": 17.5
       },
       "pressure": {
-        "value": 1030
-      },
-      "uvIndex": {
-        "value": 3.1
+        "value": 1031
       },
       "cloudCover": {
-        "value": 16,
+        "value": 79,
         "high": 0,
         "middle": 0,
-        "low": 16,
+        "low": 79,
         "fog": 2
       },
       "humidity": {
-        "value": 78.2
+        "value": 82.1
       },
       "dewPoint": {
-        "value": 15.2
+        "value": 14.5
       },
-      "start": "2026-10-14T14:00:00+02:00",
-      "end": "2026-10-14T20:00:00+02:00",
+      "start": "2026-10-14T12:00:00+02:00",
+      "end": "2026-10-14T18:00:00+02:00",
       "nominalStart": "2026-10-14T12:00:00+02:00",
       "nominalEnd": "2026-10-14T18:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 1,
+        "clouds": 0,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "fair_night",
-        "next12Hours": "partlycloudy_night"
+        "next1Hour": "fair_day",
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 16.1,
-        "min": 12.1,
-        "max": 16.1
+        "value": 17.9,
+        "min": 12.7,
+        "max": 16
       },
       "wind": {
-        "direction": 183,
-        "speed": 0.1
+        "direction": 79,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 16.1
+        "value": 17.9
       },
       "pressure": {
         "value": 1029
@@ -3796,42 +3676,42 @@
         "fog": 0
       },
       "humidity": {
-        "value": 89.9
+        "value": 83.5
       },
       "dewPoint": {
-        "value": 14.6
+        "value": 15.2
       },
-      "start": "2026-10-14T20:00:00+02:00",
-      "end": "2026-10-15T02:00:00+02:00",
+      "start": "2026-10-14T18:00:00+02:00",
+      "end": "2026-10-15T00:00:00+02:00",
       "nominalStart": "2026-10-14T18:00:00+02:00",
       "nominalEnd": "2026-10-15T00:00:00+02:00"
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "fair_night",
-        "next12Hours": "partlycloudy_day"
+        "next1Hour": "fair_night",
+        "next6Hours": "partlycloudy_night"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 12.1,
-        "min": 9.2,
-        "max": 12.1
+        "value": 12.7,
+        "min": 10.5,
+        "max": 12.3
       },
       "wind": {
-        "direction": 278,
-        "speed": 0.1
+        "direction": 229,
+        "speed": 0.3
       },
       "feelsLike": {
-        "value": 12.1
+        "value": 12.7
       },
       "pressure": {
         "value": 1030
@@ -3841,16 +3721,16 @@
         "high": 0,
         "middle": 0,
         "low": 23,
-        "fog": 0
+        "fog": 21
       },
       "humidity": {
-        "value": 94.5
+        "value": 93.4
       },
       "dewPoint": {
-        "value": 11.3
+        "value": 11.7
       },
-      "start": "2026-10-15T02:00:00+02:00",
-      "end": "2026-10-15T08:00:00+02:00",
+      "start": "2026-10-15T00:00:00+02:00",
+      "end": "2026-10-15T06:00:00+02:00",
       "nominalStart": "2026-10-15T00:00:00+02:00",
       "nominalEnd": "2026-10-15T06:00:00+02:00"
     },
@@ -3869,32 +3749,35 @@
         "value": 0
       },
       "temperature": {
-        "value": 9.5,
-        "min": 9.5,
-        "max": 19
+        "value": 10.2,
+        "min": 8.9,
+        "max": 18.5
       },
       "wind": {
-        "direction": 235,
-        "speed": 0.3
+        "direction": 197,
+        "speed": 0.8
       },
       "feelsLike": {
-        "value": 9.5
+        "value": 10.2
       },
       "pressure": {
         "value": 1029
       },
+      "uvIndex": {
+        "value": 0
+      },
       "cloudCover": {
-        "value": 100,
-        "high": 10,
+        "value": 98,
+        "high": 0,
         "middle": 0,
-        "low": 99,
-        "fog": 0
+        "low": 98,
+        "fog": 44
       },
       "humidity": {
-        "value": 99.5
+        "value": 97
       },
       "dewPoint": {
-        "value": 9.4
+        "value": 9.8
       },
       "start": "2026-10-15T08:00:00+02:00",
       "end": "2026-10-15T14:00:00+02:00",
@@ -3911,38 +3794,38 @@
       },
       "symbolCode": {
         "next6Hours": "clearsky_day",
-        "next12Hours": "clearsky_day"
+        "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 19,
-        "min": 15.3,
-        "max": 20.1
+        "value": 18.5,
+        "min": 14.8,
+        "max": 19.7
       },
       "wind": {
-        "direction": 87,
+        "direction": 83,
         "speed": 0.5
       },
       "feelsLike": {
-        "value": 19
+        "value": 18.5
       },
       "pressure": {
-        "value": 1027
+        "value": 1028
       },
       "cloudCover": {
-        "value": 8,
-        "high": 0,
+        "value": 12,
+        "high": 5,
         "middle": 0,
         "low": 8,
         "fog": 0
       },
       "humidity": {
-        "value": 76
+        "value": 75.8
       },
       "dewPoint": {
-        "value": 14.8
+        "value": 14.3
       },
       "start": "2026-10-15T14:00:00+02:00",
       "end": "2026-10-15T20:00:00+02:00",
@@ -3965,32 +3848,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.3,
-        "min": 13.2,
-        "max": 15.3
+        "value": 14.8,
+        "min": 11.4,
+        "max": 14.8
       },
       "wind": {
-        "direction": 241,
-        "speed": 0.5
+        "direction": 291,
+        "speed": 0.2
       },
       "feelsLike": {
-        "value": 15.3
+        "value": 14.8
       },
       "pressure": {
-        "value": 1025
+        "value": 1026
       },
       "cloudCover": {
-        "value": 1,
+        "value": 0,
         "high": 0,
         "middle": 0,
-        "low": 1,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 91.2
+        "value": 88.4
       },
       "dewPoint": {
-        "value": 14
+        "value": 13
       },
       "start": "2026-10-15T20:00:00+02:00",
       "end": "2026-10-16T02:00:00+02:00",
@@ -3999,46 +3882,46 @@
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "fair_night",
+        "next6Hours": "partlycloudy_night",
         "next12Hours": "fair_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 13.2,
-        "min": 11.4,
-        "max": 13.2
+        "value": 11.4,
+        "min": 10.6,
+        "max": 11.8
       },
       "wind": {
-        "direction": 281,
+        "direction": 303,
         "speed": 0.1
       },
       "feelsLike": {
-        "value": 13.2
+        "value": 11.4
       },
       "pressure": {
-        "value": 1024
+        "value": 1025
       },
       "cloudCover": {
-        "value": 28,
-        "high": 0,
+        "value": 43,
+        "high": 16,
         "middle": 0,
-        "low": 28,
+        "low": 32,
         "fog": 0
       },
       "humidity": {
-        "value": 87
+        "value": 89.5
       },
       "dewPoint": {
-        "value": 11.1
+        "value": 9.8
       },
       "start": "2026-10-16T02:00:00+02:00",
       "end": "2026-10-16T08:00:00+02:00",
@@ -4047,46 +3930,46 @@
     },
     {
       "symbol": {
-        "n": 2,
-        "clouds": 1,
+        "n": 3,
+        "clouds": 2,
         "precip": 0,
         "var": "Sun",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "fair_day",
+        "next6Hours": "partlycloudy_day",
         "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 11.4,
-        "min": 11.4,
-        "max": 20.5
+        "value": 10.9,
+        "min": 10.9,
+        "max": 20.1
       },
       "wind": {
-        "direction": 218,
-        "speed": 0.2
+        "direction": 281,
+        "speed": 0.1
       },
       "feelsLike": {
-        "value": 11.4
+        "value": 10.9
       },
       "pressure": {
         "value": 1023
       },
       "cloudCover": {
-        "value": 38,
+        "value": 41,
         "high": 0,
         "middle": 0,
-        "low": 38,
+        "low": 41,
         "fog": 0
       },
       "humidity": {
-        "value": 85.1
+        "value": 86.6
       },
       "dewPoint": {
-        "value": 9
+        "value": 8.8
       },
       "start": "2026-10-16T08:00:00+02:00",
       "end": "2026-10-16T14:00:00+02:00",
@@ -4103,38 +3986,38 @@
       },
       "symbolCode": {
         "next6Hours": "clearsky_day",
-        "next12Hours": "fair_day"
+        "next12Hours": "clearsky_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 20.5,
-        "min": 15.6,
-        "max": 21.5
+        "value": 20.1,
+        "min": 14.6,
+        "max": 21
       },
       "wind": {
-        "direction": 160,
-        "speed": 0.5
+        "direction": 156,
+        "speed": 0.6
       },
       "feelsLike": {
-        "value": 20.5
+        "value": 20.1
       },
       "pressure": {
         "value": 1021
       },
       "cloudCover": {
-        "value": 0,
+        "value": 1,
         "high": 0,
         "middle": 0,
-        "low": 0,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 67.6
+        "value": 65.7
       },
       "dewPoint": {
-        "value": 14.4
+        "value": 13.6
       },
       "start": "2026-10-16T14:00:00+02:00",
       "end": "2026-10-16T20:00:00+02:00",
@@ -4157,32 +4040,32 @@
         "value": 0
       },
       "temperature": {
-        "value": 15.6,
-        "min": 10.5,
-        "max": 15.6
+        "value": 14.6,
+        "min": 10.4,
+        "max": 14.6
       },
       "wind": {
-        "direction": 265,
-        "speed": 0.4
+        "direction": 241,
+        "speed": 0.9
       },
       "feelsLike": {
-        "value": 15.6
+        "value": 14.6
       },
       "pressure": {
         "value": 1020
       },
       "cloudCover": {
         "value": 2,
-        "high": 0,
-        "middle": 1,
-        "low": 2,
+        "high": 2,
+        "middle": 0,
+        "low": 0,
         "fog": 0
       },
       "humidity": {
-        "value": 83.8
+        "value": 81.7
       },
       "dewPoint": {
-        "value": 13
+        "value": 11.6
       },
       "start": "2026-10-16T20:00:00+02:00",
       "end": "2026-10-17T02:00:00+02:00",
@@ -4191,193 +4074,51 @@
     },
     {
       "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "cloudy",
-        "next12Hours": "lightrain"
-      },
-      "precipitation": {
-        "value": 0.3
-      },
-      "temperature": {
-        "value": 10.5,
-        "min": 10.3,
-        "max": 12.7
-      },
-      "wind": {
-        "direction": 261,
-        "speed": 0.6
-      },
-      "feelsLike": {
-        "value": 10.5
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "cloudCover": {
-        "value": 91,
-        "high": 55,
-        "middle": 13,
-        "low": 77,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 98.5
-      },
-      "dewPoint": {
-        "value": 10.3
-      },
-      "start": "2026-10-17T02:00:00+02:00",
-      "end": "2026-10-17T08:00:00+02:00",
-      "nominalStart": "2026-10-17T00:00:00+02:00",
-      "nominalEnd": "2026-10-17T06:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 9,
-        "clouds": 3,
-        "precipPhase": "Rain",
-        "precip": 2,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "rain",
-        "next12Hours": "lightrain"
-      },
-      "precipitation": {
-        "value": 1.9
-      },
-      "temperature": {
-        "value": 12.7,
-        "min": 12.7,
-        "max": 14.3
-      },
-      "wind": {
-        "direction": 320,
-        "speed": 0.3
-      },
-      "feelsLike": {
-        "value": 12.7
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 89,
-        "middle": 97,
-        "low": 69,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 92.4
-      },
-      "dewPoint": {
-        "value": 11.6
-      },
-      "start": "2026-10-17T08:00:00+02:00",
-      "end": "2026-10-17T14:00:00+02:00",
-      "nominalStart": "2026-10-17T06:00:00+02:00",
-      "nominalEnd": "2026-10-17T12:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 4,
-        "clouds": 3,
-        "precip": 0,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "cloudy",
-        "next12Hours": "partlycloudy_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 13.5,
-        "min": 11.1,
-        "max": 13.5
-      },
-      "wind": {
-        "direction": 43,
-        "speed": 5.2
-      },
-      "feelsLike": {
-        "value": 12
-      },
-      "pressure": {
-        "value": 1022
-      },
-      "cloudCover": {
-        "value": 98,
-        "high": 0,
-        "middle": 85,
-        "low": 57,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 77.7
-      },
-      "dewPoint": {
-        "value": 9.7
-      },
-      "start": "2026-10-17T14:00:00+02:00",
-      "end": "2026-10-17T20:00:00+02:00",
-      "nominalStart": "2026-10-17T12:00:00+02:00",
-      "nominalEnd": "2026-10-17T18:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 3,
-        "clouds": 2,
+        "n": 2,
+        "clouds": 1,
         "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "partlycloudy_night",
-        "next12Hours": "lightrain"
+        "next6Hours": "fair_night",
+        "next12Hours": "lightrainshowers_day"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 11.1,
-        "min": 9.9,
-        "max": 11.1
+        "value": 10.4,
+        "min": 9.8,
+        "max": 11.8
       },
       "wind": {
-        "direction": 32,
-        "speed": 5.5
+        "direction": 254,
+        "speed": 0.2
       },
       "feelsLike": {
-        "value": 9
+        "value": 10.4
       },
       "pressure": {
-        "value": 1023
+        "value": 1020
       },
       "cloudCover": {
-        "value": 77,
-        "high": 0,
-        "middle": 31,
-        "low": 72,
+        "value": 31,
+        "high": 10,
+        "middle": 0,
+        "low": 21,
         "fog": 0
       },
       "humidity": {
-        "value": 69.3
+        "value": 88.9
       },
       "dewPoint": {
-        "value": 5.6
+        "value": 8.6
       },
-      "start": "2026-10-17T20:00:00+02:00",
-      "end": "2026-10-18T02:00:00+02:00",
-      "nominalStart": "2026-10-17T18:00:00+02:00",
-      "nominalEnd": "2026-10-18T00:00:00+02:00"
+      "start": "2026-10-17T02:00:00+02:00",
+      "end": "2026-10-17T08:00:00+02:00",
+      "nominalStart": "2026-10-17T00:00:00+02:00",
+      "nominalEnd": "2026-10-17T06:00:00+02:00"
     },
     {
       "symbol": {
@@ -4389,139 +4130,43 @@
       },
       "symbolCode": {
         "next6Hours": "lightrain",
-        "next12Hours": "rain"
+        "next12Hours": "lightrain"
       },
       "precipitation": {
         "value": 0.5
       },
       "temperature": {
-        "value": 9.9,
-        "min": 8.9,
-        "max": 9.9
+        "value": 11.1,
+        "min": 11.1,
+        "max": 15.8
       },
       "wind": {
-        "direction": 33,
-        "speed": 6.6
+        "direction": 184,
+        "speed": 0.5
       },
       "feelsLike": {
-        "value": 7
+        "value": 11.1
       },
       "pressure": {
-        "value": 1022
+        "value": 1019
       },
       "cloudCover": {
-        "value": 90,
-        "high": 53,
+        "value": 98,
+        "high": 82,
         "middle": 79,
-        "low": 54,
+        "low": 75,
         "fog": 0
       },
       "humidity": {
-        "value": 76.1
+        "value": 88.7
       },
       "dewPoint": {
-        "value": 5.8
+        "value": 9.3
       },
-      "start": "2026-10-18T02:00:00+02:00",
-      "end": "2026-10-18T08:00:00+02:00",
-      "nominalStart": "2026-10-18T00:00:00+02:00",
-      "nominalEnd": "2026-10-18T06:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 10,
-        "clouds": 3,
-        "precipPhase": "Rain",
-        "precip": 3,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "heavyrain",
-        "next12Hours": "heavyrain"
-      },
-      "precipitation": {
-        "value": 6
-      },
-      "temperature": {
-        "value": 8.9,
-        "min": 7.6,
-        "max": 8.9
-      },
-      "wind": {
-        "direction": 34,
-        "speed": 6.3
-      },
-      "feelsLike": {
-        "value": 6
-      },
-      "pressure": {
-        "value": 1020
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 97,
-        "middle": 100,
-        "low": 79,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 80.7
-      },
-      "dewPoint": {
-        "value": 5.7
-      },
-      "start": "2026-10-18T08:00:00+02:00",
-      "end": "2026-10-18T14:00:00+02:00",
-      "nominalStart": "2026-10-18T06:00:00+02:00",
-      "nominalEnd": "2026-10-18T12:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 10,
-        "clouds": 3,
-        "precipPhase": "Rain",
-        "precip": 3,
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "heavyrain",
-        "next12Hours": "rain"
-      },
-      "precipitation": {
-        "value": 8.1
-      },
-      "temperature": {
-        "value": 7.8,
-        "min": 7.8,
-        "max": 9.1
-      },
-      "wind": {
-        "direction": 34,
-        "speed": 4.9
-      },
-      "feelsLike": {
-        "value": 5
-      },
-      "pressure": {
-        "value": 1021
-      },
-      "cloudCover": {
-        "value": 100,
-        "high": 100,
-        "middle": 100,
-        "low": 98,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 91.8
-      },
-      "dewPoint": {
-        "value": 6.5
-      },
-      "start": "2026-10-18T14:00:00+02:00",
-      "end": "2026-10-18T20:00:00+02:00",
-      "nominalStart": "2026-10-18T12:00:00+02:00",
-      "nominalEnd": "2026-10-18T18:00:00+02:00"
+      "start": "2026-10-17T08:00:00+02:00",
+      "end": "2026-10-17T14:00:00+02:00",
+      "nominalStart": "2026-10-17T06:00:00+02:00",
+      "nominalEnd": "2026-10-17T12:00:00+02:00"
     },
     {
       "symbol": {
@@ -4536,40 +4181,88 @@
         "next12Hours": "lightrain"
       },
       "precipitation": {
-        "value": 1
+        "value": 3.4
       },
       "temperature": {
-        "value": 8.9,
-        "min": 8.8,
-        "max": 9.1
+        "value": 15.6,
+        "min": 12.3,
+        "max": 15.6
       },
       "wind": {
-        "direction": 46,
-        "speed": 2.1
+        "direction": 264,
+        "speed": 1.2
       },
       "feelsLike": {
-        "value": 8
+        "value": 15.6
       },
       "pressure": {
-        "value": 1023
+        "value": 1018
       },
       "cloudCover": {
         "value": 100,
-        "high": 97,
-        "middle": 70,
-        "low": 68,
+        "high": 70,
+        "middle": 100,
+        "low": 87,
         "fog": 0
       },
       "humidity": {
-        "value": 96
+        "value": 83.4
       },
       "dewPoint": {
-        "value": 8.3
+        "value": 12.9
       },
-      "start": "2026-10-18T20:00:00+02:00",
-      "end": "2026-10-19T02:00:00+02:00",
-      "nominalStart": "2026-10-18T18:00:00+02:00",
-      "nominalEnd": "2026-10-19T00:00:00+02:00"
+      "start": "2026-10-17T14:00:00+02:00",
+      "end": "2026-10-17T20:00:00+02:00",
+      "nominalStart": "2026-10-17T12:00:00+02:00",
+      "nominalEnd": "2026-10-17T18:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 46,
+        "clouds": 3,
+        "precipPhase": "Rain",
+        "precip": 1,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "lightrain",
+        "next12Hours": "lightrain"
+      },
+      "precipitation": {
+        "value": 0.7
+      },
+      "temperature": {
+        "value": 12.3,
+        "min": 11.6,
+        "max": 12.3
+      },
+      "wind": {
+        "direction": 10,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 12.3
+      },
+      "pressure": {
+        "value": 1020
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 0,
+        "middle": 100,
+        "low": 100,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 91.8
+      },
+      "dewPoint": {
+        "value": 11.1
+      },
+      "start": "2026-10-17T20:00:00+02:00",
+      "end": "2026-10-18T02:00:00+02:00",
+      "nominalStart": "2026-10-17T18:00:00+02:00",
+      "nominalEnd": "2026-10-18T00:00:00+02:00"
     },
     {
       "symbol": {
@@ -4580,187 +4273,185 @@
       },
       "symbolCode": {
         "next6Hours": "cloudy",
-        "next12Hours": "partlycloudy_day"
+        "next12Hours": "cloudy"
+      },
+      "precipitation": {
+        "value": 0.1
+      },
+      "temperature": {
+        "value": 11.6,
+        "min": 11.3,
+        "max": 11.6
+      },
+      "wind": {
+        "direction": 303,
+        "speed": 0.4
+      },
+      "feelsLike": {
+        "value": 11.6
+      },
+      "pressure": {
+        "value": 1020
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 9,
+        "middle": 99,
+        "low": 100,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 88.4
+      },
+      "dewPoint": {
+        "value": 9.8
+      },
+      "start": "2026-10-18T02:00:00+02:00",
+      "end": "2026-10-18T08:00:00+02:00",
+      "nominalStart": "2026-10-18T00:00:00+02:00",
+      "nominalEnd": "2026-10-18T06:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 4,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "cloudy",
+        "next12Hours": "cloudy"
+      },
+      "precipitation": {
+        "value": 0.2
+      },
+      "temperature": {
+        "value": 11.4,
+        "min": 11.4,
+        "max": 14.7
+      },
+      "wind": {
+        "direction": 234,
+        "speed": 0.2
+      },
+      "feelsLike": {
+        "value": 11.4
+      },
+      "pressure": {
+        "value": 1021
+      },
+      "cloudCover": {
+        "value": 100,
+        "high": 32,
+        "middle": 95,
+        "low": 98,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 91.3
+      },
+      "dewPoint": {
+        "value": 10.1
+      },
+      "start": "2026-10-18T08:00:00+02:00",
+      "end": "2026-10-18T14:00:00+02:00",
+      "nominalStart": "2026-10-18T06:00:00+02:00",
+      "nominalEnd": "2026-10-18T12:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 4,
+        "clouds": 3,
+        "precip": 0,
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "cloudy",
+        "next12Hours": "cloudy"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 8.9,
-        "min": 8,
-        "max": 8.9
+        "value": 14.7,
+        "min": 12.6,
+        "max": 15
       },
       "wind": {
-        "direction": 34,
-        "speed": 2.2
+        "direction": 44,
+        "speed": 2
       },
       "feelsLike": {
-        "value": 8
+        "value": 15
       },
       "pressure": {
-        "value": 1026
+        "value": 1021
       },
       "cloudCover": {
-        "value": 93,
-        "high": 81,
-        "middle": 19,
-        "low": 45,
+        "value": 90,
+        "high": 77,
+        "middle": 4,
+        "low": 56,
         "fog": 0
       },
       "humidity": {
-        "value": 95.6
+        "value": 75.7
       },
       "dewPoint": {
-        "value": 8.2
+        "value": 10.5
       },
-      "start": "2026-10-19T02:00:00+02:00",
-      "end": "2026-10-19T08:00:00+02:00",
-      "nominalStart": "2026-10-19T00:00:00+02:00",
-      "nominalEnd": "2026-10-19T06:00:00+02:00"
+      "start": "2026-10-18T14:00:00+02:00",
+      "end": "2026-10-18T20:00:00+02:00",
+      "nominalStart": "2026-10-18T12:00:00+02:00",
+      "nominalEnd": "2026-10-18T18:00:00+02:00"
     },
     {
       "symbol": {
         "n": 3,
         "clouds": 2,
         "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "partlycloudy_day",
-        "next12Hours": "fair_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 8.5,
-        "min": 8.5,
-        "max": 14
-      },
-      "wind": {
-        "direction": 22,
-        "speed": 0.6
-      },
-      "feelsLike": {
-        "value": 8.5
-      },
-      "pressure": {
-        "value": 1029
-      },
-      "cloudCover": {
-        "value": 74,
-        "high": 70,
-        "middle": 0,
-        "low": 16,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 88.1
-      },
-      "dewPoint": {
-        "value": 6.6
-      },
-      "start": "2026-10-19T08:00:00+02:00",
-      "end": "2026-10-19T14:00:00+02:00",
-      "nominalStart": "2026-10-19T06:00:00+02:00",
-      "nominalEnd": "2026-10-19T12:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 2,
-        "clouds": 1,
-        "precip": 0,
-        "var": "Sun",
-        "sunup": false
-      },
-      "symbolCode": {
-        "next6Hours": "fair_day",
-        "next12Hours": "fair_day"
-      },
-      "precipitation": {
-        "value": 0
-      },
-      "temperature": {
-        "value": 14,
-        "min": 10.7,
-        "max": 14.5
-      },
-      "wind": {
-        "direction": 35,
-        "speed": 1.9
-      },
-      "feelsLike": {
-        "value": 14
-      },
-      "pressure": {
-        "value": 1030
-      },
-      "cloudCover": {
-        "value": 13,
-        "high": 0,
-        "middle": 0,
-        "low": 13,
-        "fog": 0
-      },
-      "humidity": {
-        "value": 74.8
-      },
-      "dewPoint": {
-        "value": 9.6
-      },
-      "start": "2026-10-19T14:00:00+02:00",
-      "end": "2026-10-19T20:00:00+02:00",
-      "nominalStart": "2026-10-19T12:00:00+02:00",
-      "nominalEnd": "2026-10-19T18:00:00+02:00"
-    },
-    {
-      "symbol": {
-        "n": 1,
-        "clouds": 0,
-        "precip": 0,
         "var": "Moon",
         "sunup": false
       },
       "symbolCode": {
-        "next6Hours": "clearsky_night",
-        "next12Hours": "partlycloudy_night"
+        "next6Hours": "partlycloudy_night",
+        "next12Hours": "cloudy"
       },
       "precipitation": {
         "value": 0
       },
       "temperature": {
-        "value": 10.7,
-        "min": 8.2,
-        "max": 10.7
+        "value": 12.6,
+        "min": 10.6,
+        "max": 12.7
       },
       "wind": {
         "direction": 22,
-        "speed": 1.9
+        "speed": 1.8
       },
       "feelsLike": {
-        "value": 10
+        "value": 12
       },
       "pressure": {
-        "value": 1029
+        "value": 1022
       },
       "cloudCover": {
-        "value": 2,
-        "high": 0,
+        "value": 85,
+        "high": 80,
         "middle": 0,
-        "low": 2,
+        "low": 27,
         "fog": 0
       },
       "humidity": {
-        "value": 90.4
+        "value": 85.6
       },
       "dewPoint": {
-        "value": 9.2
+        "value": 10.3
       },
-      "start": "2026-10-19T20:00:00+02:00",
-      "end": "2026-10-20T02:00:00+02:00",
-      "nominalStart": "2026-10-19T18:00:00+02:00",
-      "nominalEnd": "2026-10-20T00:00:00+02:00"
+      "start": "2026-10-18T20:00:00+02:00",
+      "end": "2026-10-19T02:00:00+02:00",
+      "nominalStart": "2026-10-18T18:00:00+02:00",
+      "nominalEnd": "2026-10-19T00:00:00+02:00"
     },
     {
       "symbol": {
@@ -4778,37 +4469,37 @@
         "value": 0
       },
       "temperature": {
-        "value": 8.2,
-        "min": 7.7,
-        "max": 8.4
+        "value": 10.6,
+        "min": 10.1,
+        "max": 10.8
       },
       "wind": {
-        "direction": 30,
-        "speed": 1.4
+        "direction": 52,
+        "speed": 1.1
       },
       "feelsLike": {
-        "value": 8
+        "value": 10.6
       },
       "pressure": {
-        "value": 1029
+        "value": 1024
       },
       "cloudCover": {
-        "value": 78,
-        "high": 0,
+        "value": 86,
+        "high": 44,
         "middle": 0,
-        "low": 78,
+        "low": 76,
         "fog": 0
       },
       "humidity": {
-        "value": 91.7
+        "value": 95.1
       },
       "dewPoint": {
-        "value": 6.9
+        "value": 9.9
       },
-      "start": "2026-10-20T02:00:00+02:00",
-      "end": "2026-10-20T08:00:00+02:00",
-      "nominalStart": "2026-10-20T00:00:00+02:00",
-      "nominalEnd": "2026-10-20T06:00:00+02:00"
+      "start": "2026-10-19T02:00:00+02:00",
+      "end": "2026-10-19T08:00:00+02:00",
+      "nominalStart": "2026-10-19T00:00:00+02:00",
+      "nominalEnd": "2026-10-19T06:00:00+02:00"
     },
     {
       "symbol": {
@@ -4825,32 +4516,224 @@
         "value": 0
       },
       "temperature": {
-        "value": 7.9,
-        "min": 7.9,
-        "max": 12.8
+        "value": 10.1,
+        "min": 10.1,
+        "max": 16.6
       },
       "wind": {
-        "direction": 30,
-        "speed": 1.8
+        "direction": 26,
+        "speed": 1
       },
       "feelsLike": {
-        "value": 7
+        "value": 10.1
       },
       "pressure": {
         "value": 1026
       },
       "cloudCover": {
-        "value": 91,
-        "high": 54,
-        "middle": 1,
-        "low": 81,
+        "value": 89,
+        "high": 16,
+        "middle": 0,
+        "low": 88,
         "fog": 0
       },
       "humidity": {
-        "value": 89.6
+        "value": 97.3
       },
       "dewPoint": {
-        "value": 6.2
+        "value": 9.7
+      },
+      "start": "2026-10-19T08:00:00+02:00",
+      "end": "2026-10-19T14:00:00+02:00",
+      "nominalStart": "2026-10-19T06:00:00+02:00",
+      "nominalEnd": "2026-10-19T12:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 16.6,
+        "min": 12.9,
+        "max": 17.2
+      },
+      "wind": {
+        "direction": 39,
+        "speed": 1
+      },
+      "feelsLike": {
+        "value": 16.6
+      },
+      "pressure": {
+        "value": 1026
+      },
+      "cloudCover": {
+        "value": 9,
+        "high": 4,
+        "middle": 0,
+        "low": 6,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 73.1
+      },
+      "dewPoint": {
+        "value": 11.8
+      },
+      "start": "2026-10-19T14:00:00+02:00",
+      "end": "2026-10-19T20:00:00+02:00",
+      "nominalStart": "2026-10-19T12:00:00+02:00",
+      "nominalEnd": "2026-10-19T18:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 2,
+        "clouds": 1,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "fair_night",
+        "next12Hours": "clearsky_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 12.9,
+        "min": 10.5,
+        "max": 12.9
+      },
+      "wind": {
+        "direction": 5,
+        "speed": 0.5
+      },
+      "feelsLike": {
+        "value": 12.9
+      },
+      "pressure": {
+        "value": 1028
+      },
+      "cloudCover": {
+        "value": 36,
+        "high": 35,
+        "middle": 0,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.6
+      },
+      "dewPoint": {
+        "value": 10.4
+      },
+      "start": "2026-10-19T20:00:00+02:00",
+      "end": "2026-10-20T02:00:00+02:00",
+      "nominalStart": "2026-10-19T18:00:00+02:00",
+      "nominalEnd": "2026-10-20T00:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_night",
+        "next12Hours": "clearsky_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 10.5,
+        "min": 8.9,
+        "max": 10.5
+      },
+      "wind": {
+        "direction": 22,
+        "speed": 0.9
+      },
+      "feelsLike": {
+        "value": 10.5
+      },
+      "pressure": {
+        "value": 1030
+      },
+      "cloudCover": {
+        "value": 2,
+        "high": 0,
+        "middle": 0,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 87.7
+      },
+      "dewPoint": {
+        "value": 8.5
+      },
+      "start": "2026-10-20T02:00:00+02:00",
+      "end": "2026-10-20T08:00:00+02:00",
+      "nominalStart": "2026-10-20T00:00:00+02:00",
+      "nominalEnd": "2026-10-20T06:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_day",
+        "next12Hours": "clearsky_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 8.9,
+        "min": 8.9,
+        "max": 15.4
+      },
+      "wind": {
+        "direction": 36,
+        "speed": 1.3
+      },
+      "feelsLike": {
+        "value": 8.9
+      },
+      "pressure": {
+        "value": 1031
+      },
+      "cloudCover": {
+        "value": 12,
+        "high": 0,
+        "middle": 0,
+        "low": 12,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.3
+      },
+      "dewPoint": {
+        "value": 6.3
       },
       "start": "2026-10-20T08:00:00+02:00",
       "end": "2026-10-20T14:00:00+02:00",
@@ -4873,37 +4756,229 @@
         "value": 0
       },
       "temperature": {
-        "value": 12.8,
-        "min": 10.2,
-        "max": 13.9
+        "value": 15.4,
+        "min": 11.7,
+        "max": 15.7
       },
       "wind": {
-        "direction": 42,
-        "speed": 3.6
+        "direction": 46,
+        "speed": 1.9
       },
       "feelsLike": {
-        "value": 12
+        "value": 15.4
       },
       "pressure": {
-        "value": 1022
+        "value": 1030
       },
       "cloudCover": {
-        "value": 13,
-        "high": 2,
+        "value": 8,
+        "high": 1,
         "middle": 0,
-        "low": 12,
+        "low": 8,
         "fog": 0
       },
       "humidity": {
-        "value": 70.5
+        "value": 69.9
       },
       "dewPoint": {
-        "value": 7.5
+        "value": 10
       },
       "start": "2026-10-20T14:00:00+02:00",
       "end": "2026-10-20T20:00:00+02:00",
       "nominalStart": "2026-10-20T12:00:00+02:00",
       "nominalEnd": "2026-10-20T18:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_night"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 11.7,
+        "min": 9.3,
+        "max": 11.7
+      },
+      "wind": {
+        "direction": 10,
+        "speed": 0.8
+      },
+      "feelsLike": {
+        "value": 11.7
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "cloudCover": {
+        "value": 1,
+        "high": 0,
+        "middle": 0,
+        "low": 1,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 84.1
+      },
+      "dewPoint": {
+        "value": 9.1
+      },
+      "start": "2026-10-20T20:00:00+02:00",
+      "end": "2026-10-21T02:00:00+02:00",
+      "nominalStart": "2026-10-20T18:00:00+02:00",
+      "nominalEnd": "2026-10-21T00:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Moon",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_night",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 9.3,
+        "min": 7.8,
+        "max": 9.3
+      },
+      "wind": {
+        "direction": 30,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 9.3
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "cloudCover": {
+        "value": 12,
+        "high": 9,
+        "middle": 0,
+        "low": 2,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 83.2
+      },
+      "dewPoint": {
+        "value": 6.5
+      },
+      "start": "2026-10-21T02:00:00+02:00",
+      "end": "2026-10-21T08:00:00+02:00",
+      "nominalStart": "2026-10-21T00:00:00+02:00",
+      "nominalEnd": "2026-10-21T06:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 3,
+        "clouds": 2,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "partlycloudy_day",
+        "next12Hours": "fair_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 7.8,
+        "min": 7.8,
+        "max": 15.4
+      },
+      "wind": {
+        "direction": 27,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 7.8
+      },
+      "pressure": {
+        "value": 1029
+      },
+      "cloudCover": {
+        "value": 63,
+        "high": 0,
+        "middle": 0,
+        "low": 63,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 89.4
+      },
+      "dewPoint": {
+        "value": 6.1
+      },
+      "start": "2026-10-21T08:00:00+02:00",
+      "end": "2026-10-21T14:00:00+02:00",
+      "nominalStart": "2026-10-21T06:00:00+02:00",
+      "nominalEnd": "2026-10-21T12:00:00+02:00"
+    },
+    {
+      "symbol": {
+        "n": 1,
+        "clouds": 0,
+        "precip": 0,
+        "var": "Sun",
+        "sunup": false
+      },
+      "symbolCode": {
+        "next6Hours": "clearsky_day",
+        "next12Hours": "clearsky_day"
+      },
+      "precipitation": {
+        "value": 0
+      },
+      "temperature": {
+        "value": 15.4,
+        "min": 12,
+        "max": 16.3
+      },
+      "wind": {
+        "direction": 41,
+        "speed": 1.1
+      },
+      "feelsLike": {
+        "value": 15.4
+      },
+      "pressure": {
+        "value": 1028
+      },
+      "cloudCover": {
+        "value": 10,
+        "high": 0,
+        "middle": 0,
+        "low": 10,
+        "fog": 0
+      },
+      "humidity": {
+        "value": 72.5
+      },
+      "dewPoint": {
+        "value": 10.5
+      },
+      "start": "2026-10-21T14:00:00+02:00",
+      "end": "2026-10-21T20:00:00+02:00",
+      "nominalStart": "2026-10-21T12:00:00+02:00",
+      "nominalEnd": "2026-10-21T18:00:00+02:00"
     },
     {
       "symbol": {
@@ -4920,37 +4995,37 @@
         "value": 0
       },
       "temperature": {
-        "value": 10.2,
-        "min": 6.7,
-        "max": 10.2
+        "value": 12,
+        "min": 10.3,
+        "max": 12
       },
       "wind": {
-        "direction": 35,
-        "speed": 5.6
+        "direction": 346,
+        "speed": 0.4
       },
       "feelsLike": {
-        "value": 8
+        "value": 12
       },
       "pressure": {
-        "value": 1020
+        "value": 1027
       },
       "cloudCover": {
-        "value": 0,
+        "value": 1,
         "high": 0,
         "middle": 0,
-        "low": 0,
+        "low": 1,
         "fog": 0
       },
       "humidity": {
-        "value": 56.5
+        "value": 89.1
       },
       "dewPoint": {
-        "value": 1.8
+        "value": 10.3
       },
-      "start": "2026-10-20T20:00:00+02:00",
-      "end": "2026-10-21T02:00:00+02:00",
-      "nominalStart": "2026-10-20T18:00:00+02:00",
-      "nominalEnd": "2026-10-21T00:00:00+02:00"
+      "start": "2026-10-21T20:00:00+02:00",
+      "end": "2026-10-22T02:00:00+02:00",
+      "nominalStart": "2026-10-21T18:00:00+02:00",
+      "nominalEnd": "2026-10-22T00:00:00+02:00"
     }
   ],
   "status": {
